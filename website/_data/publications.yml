@@ -1,0 +1,9 @@
+publications:
+  - title: "Science Concierge: A fast content-based recommendation system for scientific publications"
+    authors: T Achakulvisut, DE Acuna, T Ruangrong, K Kording
+    journal: PloS one 11 (7), e0158423
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423
+  - title: "Point of view: Improving on legacy conferences by moving online"
+    authors: Titipat Achakulvisut, Tulakan Ruangrong, Isil Bilgin, Sofie Van Den Bossche, Brad Wyble, Dan FM Goodman, Konrad P Kording
+    journal: Elife 9, e57892
+    url: https://elifesciences.org/articles/57892
