@@ -4,15 +4,13 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 
 const ResourcePage = ({
-  data: {
-    site
-  },
 }) => {
   return (
     <Layout>
       <Helmet>
         <title>Resources</title>
       </Helmet>
+      <h1>Resources</h1>
     </Layout>
   )
 }
