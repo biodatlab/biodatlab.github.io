@@ -8,17 +8,14 @@ import HeroHeader from "../components/heroHeader"
 const BlogPage = ({
 }) => {
 
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-
   return (
     <Layout>
       <Helmet>
         <title>Lab blogs</title>
       </Helmet>
-      <HeroHeader/>
+      <h1>Blogs</h1>
     </Layout>
   )
 }
 
+export default BlogPage

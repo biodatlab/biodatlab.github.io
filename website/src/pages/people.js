@@ -4,15 +4,15 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 
 const PeoplePage = ({
-  data: {
-    site
-  },
 }) => {
   return (
     <Layout>
       <Helmet>
-        <title>People</title>
+        <title>Lab blogs</title>
       </Helmet>
+      <h1>People</h1>
     </Layout>
   )
 }
+
+export default PeoplePage
