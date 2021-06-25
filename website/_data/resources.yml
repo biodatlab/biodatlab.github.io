@@ -1,0 +1,7 @@
+resources:
+  - name: "Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset"
+    url: https://github.com/titipata/pubmed_parser
+    description: "Python parser for PubMed and MEDLINE data written from our lab. It can be used to parse bulk of data or quickly get biomedical publications for analysis."
+  - name: "Claim Extraction for Scientific Publications"
+    url: "https://github.com/titipata/detecting-scientific-claim"
+    description: "A tool for scientific claim extraction for scientific publication. It can also parse discourse from a given scientific abstract."

@@ -4,7 +4,7 @@
   "description": "Lab website for Titipat Achakulvisut's lab at Mahidol University, Thailand",
   "home": {
     "title": "BAD Lab @ Mahidol University",
-    "description": "Biomedical and Data (BAD) lab runs by Titipat Achakulvisut. Our lab work in an intersection of applied natural language processing, machine learning, and science of science. We aim to build tools to make better science. We also broadly interested in ML applications for bioengineering.",
+    "description": "Biomedical and Data (BAD) lab at Mahidol University runs by Titipat Achakulvisut. Our lab work in an intersection of applied natural language processing, machine learning, and science of science. We aim to build tools to make better science. We also broadly interested in ML applications for bioengineering.",
     "interests": "Science of Science | Applied Natural Language Processing | Applied Machine Learning"
   }
 }

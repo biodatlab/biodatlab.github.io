@@ -11,5 +11,4 @@ export default (props) => (
     <Link to="/contact">Contact</Link>
     <ThemeChanger/>
   </nav>
-  
 )
