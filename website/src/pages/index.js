@@ -12,10 +12,6 @@ const IndexPage = ({
   },
 }) => {
 
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-
   return (
     <Layout>
       <Helmet>
@@ -23,6 +19,10 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <HeroHeader/>
+      <h2>Funders</h2>
+      <div className="primary-content">{site.siteMetadata.home.funders}</div>
+      <h2>Collaborators</h2>
+      <div className="primary-content">{site.siteMetadata.home.collaborators}</div>
     </Layout>
   )
 }
@@ -34,6 +34,13 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
+        home {
+          title
+          description
+          interests
+          funders
+          collaborators
+        }
       }
     }
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
