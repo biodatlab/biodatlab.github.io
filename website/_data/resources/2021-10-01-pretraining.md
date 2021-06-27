@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /blog/joining-the-lab
+path: /resources/joining-the-lab
 date: 2021-10-01T07:08:53.137Z
 title: Joining the lab
 thumbnail: ''
