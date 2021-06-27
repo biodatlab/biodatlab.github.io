@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/kittinan
 date: 2020-02-01T06:15:50.738Z
 title: Kittinan Srithaworn
-thumbnail: /assets/poster.jpg
+thumbnail: /assets/poster.png
 position: developer
 metaDescription: Full-stack developer
 ---
