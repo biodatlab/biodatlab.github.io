@@ -11,7 +11,9 @@ const PublicationPage = ({
         <title>Publications</title>
       </Helmet>
       <h1>Publications</h1>
-      <p>Please see Google scholar for list of publications or below.</p>
+      <div className="primary-content">
+        Please see Google scholar for list of publications or below.
+      </div>
     </Layout>
   )
 }

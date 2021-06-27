@@ -17,10 +17,37 @@ const ContactPage = ({
       <div className="two-grids -contact">
         <div>
           <h1 className="post-title">Contact us</h1>
-          <p>
-            If you are interested to join the lab or collaborate, please do not hesitate to contact
-            Titipat via email or send the form below &rarr;
-          </p>
+          <div className="primary-content">
+            If you are interested to join the lab or collaborate, please do not hesitate to send
+            Titipat an email or using the form in this page &rarr;
+          </div>
+          <div className="primary-content">
+            <b>Undergraduate students: </b>
+            Please contact Titipat to arrange a short meeting to discuss
+            about research and/or potential projects.
+          </div>
+          <div className="primary-content">
+            <b>Graduate students: </b>
+            Due to limitation of the Mahidol university's rule, I cannot hire graduate
+            students from the department yet. If you are interested in doing research with Titipat,
+            please email and arrange a discussion before applying. You can potentially apply to 
+            Department of Biomedical engineering at Mahidol University or
+            Vidyasirimedhi Institute of Science and Technology (VISTEC),
+            Thailand, where Titpat can co-advise.
+          </div>
+          <div className="primary-content">
+            <b>Other positions: </b>
+            I am always actively looking for interns and developers. If you are interested
+            in doing internship or other positions such as developers, please also do not hesitate
+            to email Titipat to discuss.
+          </div>
+          <div className="primary-content">
+            <b>Office: </b>
+            Mahidol University,
+            Engineering Building 3, 3rd Floor
+            999 Phutthamonthon 4 Road,
+            Salaya, Nakhon Pathom, Thailand 73170
+          </div>
         </div>
         <div>
           <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
