@@ -39,6 +39,13 @@ const ContactPage = ({
             in doing internship or other potions such as developers, please also do not hesitate
             to email Titipat.
           </div>
+          <div className="primary-content">
+            <b>Office: </b>
+            Mahidol University,
+            Engineering Building 3, 3rd Floor
+            999 Phutthamonthon 4 Road,
+            Salaya, Nakhon Pathom, Thailand 73170
+          </div>
         </div>
         <div>
           <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
