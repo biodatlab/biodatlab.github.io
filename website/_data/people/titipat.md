@@ -1,9 +1,9 @@
 ---
 template: BlogPost
-path: /new-post
+path: /people/titipat
 date: 2020-02-01T06:15:50.738Z
 title: Titipat Achakulvisut
-thumbnail: /assets/image-4.jpg
+thumbnail: /assets/titipat.jpg
 position: PI
 metaDescription: Principal investigator
 ---
@@ -39,3 +39,8 @@ He co-created a program for high school students to learn basic data science and
 [AI Builders](https://vistec-ai.github.io/ai-builders/). He also actively work with companies such as
 [425Degree](https://www.425degree.com/), Thailand, where he applies data science adn machine learning
 approaches to solve business questions.
+
+## More information
+
+You can find more information in his [CV](https://github.com/titipata/titipat_cv/blob/master/pdf/Titipat_CV.pdf)
+and his Github [titipata](https://github.com/titipata).
