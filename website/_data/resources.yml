@@ -1,16 +1,15 @@
-resources:
-  - name: "Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset"
-    url: https://github.com/titipata/pubmed_parser
-    description: "Python parser for PubMed and MEDLINE data written from our lab. It can be used to parse bulk of data or quickly get biomedical publications for analysis."
-  - name: "Claim Extraction for Scientific Publications"
-    url: "https://github.com/titipata/detecting-scientific-claim"
-    description: "A tool for scientific claim extraction for scientific publication. It can also parse discourse from a given scientific abstract."
-  - name: "Deepcut: A Thai word tokenization library using Deep Neural Network."
-    url: https://github.com/rkcosmos/deepcut
-    description: "Deepcut is one of the Thai tokenizer which you can use easily with Thai text. Although, there are faster alternatives such as the PyThaiNLP library."
-  - name: "SciPDF Parser: A Python parser for scientific PDF files"
-    url: https://github.com/titipata/scipdf_parser
-    description: "A Python parser for scientific PDF based on GROBID and pdffigures2."
-  - name: "Pyglmnet: A python implementation of elastic-net regularized generalized linear models"
-    url: https://github.com/glm-tools/pyglmnet
-    description: "Pyglmnet provides a wide range of noise models (and paired canonical link functions): 'gaussian', 'binomial', 'probit', 'gamma', 'poisson', and 'softplus'."
+- name: "Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset"
+  url: https://github.com/titipata/pubmed_parser
+  description: "Python parser for PubMed and MEDLINE data written from our lab. It can be used to parse bulk of data or quickly get biomedical publications for analysis."
+- name: "Claim Extraction for Scientific Publications"
+  url: "https://github.com/titipata/detecting-scientific-claim"
+  description: "A tool for scientific claim extraction for scientific publication. It can also parse discourse from a given scientific abstract."
+- name: "Deepcut: A Thai word tokenization library using Deep Neural Network."
+  url: https://github.com/rkcosmos/deepcut
+  description: "Deepcut is one of the Thai tokenizer which you can use easily with Thai text. Although, there are faster alternatives such as the PyThaiNLP library."
+- name: "SciPDF Parser: A Python parser for scientific PDF files"
+  url: https://github.com/titipata/scipdf_parser
+  description: "A Python parser for scientific PDF based on GROBID and pdffigures2."
+- name: "Pyglmnet: A python implementation of elastic-net regularized generalized linear models"
+  url: https://github.com/glm-tools/pyglmnet
+  description: "Pyglmnet provides a wide range of noise models (and paired canonical link functions): 'gaussian', 'binomial', 'probit', 'gamma', 'poisson', and 'softplus'."
