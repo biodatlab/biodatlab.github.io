@@ -1,50 +1,50 @@
-publications:
-  - title: "Science Concierge: A fast content-based recommendation system for scientific publications"
-    authors: T Achakulvisut, DE Acuna, T Ruangrong, K Kording
-    journal: PloS one 11 (7), e0158423
-    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423
-    year: 2016
-  - title: "Intellectual synthesis in mentorship determines success in academic careers"
-    authors: JF Liénard, T Achakulvisut, DE Acuna, SV David
-    journal: Nature communications 9 (1), 1-13
-    year: 2018
-  - title: "DeepCut: A Thai word tokenization library using Deep Neural Network"
-    authors: Rakpong Kittinaradorn, A Titipat, Korakot Chaovavanich, Kittinan Srithaworn, P Chormai, C Kaewkasi, T Ruangrong, K Oparad
-    journal: ""
-    url: https://github.com/rkcosmos/deepcut
-    year: 2019
-  - title: "Claim extraction in biomedical publications using deep discourse model and transfer learning"
-    authors: T Achakulvisut, C Bhagavatula, D Acuna, K Kording
-    journal: arXiv preprint arXiv:1907.00962
-    url: https://arxiv.org/pdf/1907.00962.pdf
-    year: 2019
-  - title: "Point of view: Improving on legacy conferences by moving online"
-    authors: Titipat Achakulvisut, Tulakan Ruangrong, Isil Bilgin, Sofie Van Den Bossche, Brad Wyble, Dan FM Goodman, Konrad P Kording
-    journal: Elife 9, e57892
-    url: https://elifesciences.org/articles/57892
-    year: 2020
-  - title: "Pyglmnet: Python implementation of elastic-net regularized generalized linear models"
-    authors: M Jas, T Achakulvisut, A Idrizović, D Acuna, M Antalek, V Marques, ...
-    journal: Journal of Open Source Software 5 (47)
-    url: https://biblio.ugent.be/publication/8650816/file/8650817
-    year: 2020
-  - title: "neuromatch: Algorithms to match scientists"
-    authors: T Achakulvisut, T Ruangrong, DE Acuna, B Wyble, D Goodman, K Kording
-    journal: eLife
-    url: https://elifesciences.org/labs/5ed408f4/neuromatch-algorithms-to-match-scientists
-    year: 2020
-  - title: "Pubmed parser: a Python parser for PubMed Open-Access XML subset and MEDLINE XML dataset XML dataset"
-    authors: T Achakulvisut, DE Acuna, K Kording
-    journal: Journal of Open Source Software 5 (46), 1979
-    url: https://joss.theoj.org/papers/10.21105/joss.01979.pdf
-    year: 2020
-  - title: "Neuromatch Academy: Teaching Computational Neuroscience with global accessibility"
-    authors: T van Viegen, A Akrami, K Bonnen, E DeWitt, A Hyafil, H Ledmyr, ...
-    journal: Trends in Cognitive Sciences
-    url: https://www.sciencedirect.com/science/article/abs/pii/S1364661321000954?dgcid=author
-    year: 2020
-  - title: "Towards Democratizing and Automating Online Conferences: Lessons from the Neuromatch Conferences"
-    authors: T Achakulvisut, T Ruangrong, P Mineault, TP Vogels, MAK Peters, ...
-    journal: Trends in Cognitive Sciences
-    url: https://www.sciencedirect.com/science/article/abs/pii/S1364661321000097
-    year: 2021
+- title: "Science Concierge: A fast content-based recommendation system for scientific publications"
+  authors: T Achakulvisut, DE Acuna, T Ruangrong, K Kording
+  journal: PloS one 11 (7), e0158423
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423
+  year: 2016
+- title: "Intellectual synthesis in mentorship determines success in academic careers"
+  authors: JF Liénard, T Achakulvisut, DE Acuna, SV David
+  journal: Nature communications 9 (1), 1-13
+  url: https://www.nature.com/articles/s41467-018-07034-y
+  year: 2018
+- title: "DeepCut: A Thai word tokenization library using Deep Neural Network"
+  authors: Rakpong Kittinaradorn, A Titipat, Korakot Chaovavanich, Kittinan Srithaworn, P Chormai, C Kaewkasi, T Ruangrong, K Oparad
+  journal: ""
+  url: https://github.com/rkcosmos/deepcut
+  year: 2019
+- title: "Claim extraction in biomedical publications using deep discourse model and transfer learning"
+  authors: T Achakulvisut, C Bhagavatula, D Acuna, K Kording
+  journal: arXiv preprint arXiv:1907.00962
+  url: https://arxiv.org/pdf/1907.00962.pdf
+  year: 2019
+- title: "Point of view: Improving on legacy conferences by moving online"
+  authors: Titipat Achakulvisut, Tulakan Ruangrong, Isil Bilgin, Sofie Van Den Bossche, Brad Wyble, Dan FM Goodman, Konrad P Kording
+  journal: Elife 9, e57892
+  url: https://elifesciences.org/articles/57892
+  year: 2020
+- title: "Pyglmnet: Python implementation of elastic-net regularized generalized linear models"
+  authors: M Jas, T Achakulvisut, A Idrizović, D Acuna, M Antalek, V Marques, ...
+  journal: Journal of Open Source Software 5 (47)
+  url: https://biblio.ugent.be/publication/8650816/file/8650817
+  year: 2020
+- title: "neuromatch: Algorithms to match scientists"
+  authors: T Achakulvisut, T Ruangrong, DE Acuna, B Wyble, D Goodman, K Kording
+  journal: eLife
+  url: https://elifesciences.org/labs/5ed408f4/neuromatch-algorithms-to-match-scientists
+  year: 2020
+- title: "Pubmed parser: a Python parser for PubMed Open-Access XML subset and MEDLINE XML dataset XML dataset"
+  authors: T Achakulvisut, DE Acuna, K Kording
+  journal: Journal of Open Source Software 5 (46), 1979
+  url: https://joss.theoj.org/papers/10.21105/joss.01979.pdf
+  year: 2020
+- title: "Neuromatch Academy: Teaching Computational Neuroscience with global accessibility"
+  authors: T van Viegen, A Akrami, K Bonnen, E DeWitt, A Hyafil, H Ledmyr, ...
+  journal: Trends in Cognitive Sciences
+  url: https://www.sciencedirect.com/science/article/abs/pii/S1364661321000954?dgcid=author
+  year: 2020
+- title: "Towards Democratizing and Automating Online Conferences: Lessons from the Neuromatch Conferences"
+  authors: T Achakulvisut, T Ruangrong, P Mineault, TP Vogels, MAK Peters, ...
+  journal: Trends in Cognitive Sciences
+  url: https://www.sciencedirect.com/science/article/abs/pii/S1364661321000097
+  year: 2021

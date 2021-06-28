@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /blog/joining-the-lab
+path: /resources/joining-the-lab
 date: 2021-10-01T07:08:53.137Z
 title: Joining the lab
 thumbnail: ''
@@ -23,7 +23,7 @@ find tutorials on shell scripts (Bash, Zsh, ...). I list some of them below.
 
 ## Version control
 
-We generally use `git` as our version control and store many repositories on Github.
+We generally use `git` as our version control and store many repositories on GitHub.
 Here, familarize yourself with Git will help a lot in your code development.
 
 - [มาเริ่มใช้ Git กัน [part 1]](https://tupleblog.github.io/use-git-part1/)
