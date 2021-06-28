@@ -39,7 +39,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    allPublicationsYaml(sort: {order: ASC, fields: [year]}) {
+    allPublicationsYaml(sort: {order: DESC, fields: [year]}) {
       edges {
         node {
           id
