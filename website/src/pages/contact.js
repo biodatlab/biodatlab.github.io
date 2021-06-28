@@ -29,11 +29,11 @@ const ContactPage = ({
           <div className="primary-content">
             <b>Graduate students: </b>
             Due to limitation of the Mahidol university's rule, I cannot hire graduate
-            students from the department yet. If you are interested in doing research with Titipat,
+            students yet. If you are interested in doing research with Titipat,
             please email and arrange a discussion before applying. You can potentially apply to the
             Department of Biomedical engineering at Mahidol University, Vidyasirimedhi Institute of
-            Science and Technology (VISTEC), or Chulalongkorn University, Thailand, where Titipat
-            can co-advise.
+            Science and Technology (VISTEC), or Chulalongkorn University, Thailand, where I
+            can co-advise. There are multiple options if you are interested.
           </div>
           <div className="primary-content">
             <b>Other positions: </b>

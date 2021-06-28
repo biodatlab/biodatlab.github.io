@@ -23,7 +23,7 @@ const PublicationPage = ({
       <div className="primary-content">
         Please see Google scholar for list of publications or below.
       </div>
-      <div>
+      <div className="primary-content">
         {Publication}
       </div>
     </Layout>
