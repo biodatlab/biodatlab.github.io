@@ -20,7 +20,7 @@ const PeoplePage = ({
         <title>Lab blogs</title>
       </Helmet>
       <h1>People</h1>
-      <div className="grids">
+      <div className="grids people">
         {People}
       </div>
     </Layout>
