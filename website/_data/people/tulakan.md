@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/tulakan
 date: 2020-02-01T06:15:50.738Z
 title: Tulakan Ruangrong
-thumbnail: /assets/tulakan.png
+thumbnail: /assets/people/tulakan.png
 position: developer
 metaDescription: Full-stack developer
 order: 2

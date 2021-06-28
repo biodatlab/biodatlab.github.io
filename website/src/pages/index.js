@@ -19,10 +19,17 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <HeroHeader/>
+      <h2>Research</h2>
+      {/* <div className="grids 2">
+        {Collaborator}
+      </div> */}
       <h2>Funders</h2>
       <div className="primary-content">{site.siteMetadata.home.funders}</div>
       <h2>Collaborators</h2>
       <div className="primary-content">{site.siteMetadata.home.collaborators}</div>
+      {/* <div className="grids 5">
+        {Collaborator}
+      </div> */}
     </Layout>
   )
 }

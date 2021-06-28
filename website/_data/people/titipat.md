@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/titipat
 date: 2020-01-01T06:15:50.738Z
 title: Titipat Achakulvisut
-thumbnail: /assets/titipat.png
+thumbnail: /assets/people/titipat.png
 position: PI
 metaDescription: Principal investigator
 order: 0
