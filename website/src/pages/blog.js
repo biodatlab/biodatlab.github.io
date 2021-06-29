@@ -18,7 +18,7 @@ const BlogPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>Lab blogs</title>
+        <title>Blogs</title>
       </Helmet>
       <h1>Blogs</h1>
       <div className="grids">

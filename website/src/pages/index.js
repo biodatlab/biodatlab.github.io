@@ -30,8 +30,6 @@ const IndexPage = ({
     </div>
   ))
 
-  console.log('home', home)
-
   return (
     <Layout>
       <Helmet>

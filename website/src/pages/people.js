@@ -17,7 +17,7 @@ const PeoplePage = ({
   return (
     <Layout>
       <Helmet>
-        <title>Lab blogs</title>
+        <title>People</title>
       </Helmet>
       <h1>People</h1>
       <div className="grids small">

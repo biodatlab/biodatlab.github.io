@@ -1,6 +1,7 @@
 import React, { createContext, useState } from 'react';
 
-const savedTheme = window?.localStorage.getItem('theme')
+const isBrowser = typeof window !== "undefined"
+const savedTheme = isBrowser ? window.localStorage.getItem('theme') : null
 
 const ThemeContext = createContext({
   theme: 'light',
