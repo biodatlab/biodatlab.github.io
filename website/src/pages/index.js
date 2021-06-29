@@ -1,32 +1,42 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import PostLink from "../components/post-link"
 import HeroHeader from "../components/heroHeader"
+import { useThemeContext } from "../contexts/theme-context";
 
 const IndexPage = ({
   data: {
-    site,
-    allMarkdownRemark: { edges },
+    site: {
+      siteMetadata: {
+        title,
+        description,
+        home
+      }
+    },
   },
 }) => {
+  const { theme } = useThemeContext()
+
+  useEffect(() => {
+    console.log('current theme', theme)
+  }, [theme])
 
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title}</title>
-        <meta name="description" content={site.siteMetadata.description} />
+        <title>{title}</title>
+        <meta name="description" content={description} />
       </Helmet>
       <HeroHeader/>
-      <h2>Research</h2>
+      <h2>Research-{theme}</h2>
       {/* <div className="grids 2">
         {Collaborator}
       </div> */}
       <h2>Funders</h2>
-      <div className="primary-content">{site.siteMetadata.home.funders}</div>
+      <div className="primary-content">{home.funders}</div>
       <h2>Collaborators</h2>
-      <div className="primary-content">{site.siteMetadata.home.collaborators}</div>
+      <div className="primary-content">{home.collaborators}</div>
       {/* <div className="grids 5">
         {Collaborator}
       </div> */}
@@ -47,20 +57,6 @@ export const pageQuery = graphql`
           interests
           funders
           collaborators
-        }
-      }
-    }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            path
-            title
-            thumbnail
-          }
         }
       }
     }
