@@ -1,12 +1,14 @@
 import React, { createContext, useState } from 'react';
 
+const savedTheme = window?.localStorage.getItem('theme')
+
 const ThemeContext = createContext({
   theme: 'light',
   setTheme: () => {},
 })
 
 const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState(savedTheme || 'light')
 
   return (
     <ThemeContext.Provider value={{
