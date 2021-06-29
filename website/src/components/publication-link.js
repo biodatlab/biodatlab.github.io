@@ -11,7 +11,7 @@ const PublicationLink = ({ publication }) => {
   return (
   <div className="publication-item">
     <h2 className="publication-title">
-      <a href={publication.url} target="_blank" className="post-link">
+      <a href={publication.url} target="_blank" rel="noopener noreferrer" className="post-link">
         {publication.title}
       </a>
     </h2>

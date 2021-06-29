@@ -9,7 +9,7 @@ const ResourceLink = ({ resource }) => (
     </Link> */}
     <header>
       <h2 className="post-title">
-        <a href={resource.url} target="_blank" className="post-link">
+        <a href={resource.url} target="_blank" rel="noopener noreferrer" className="post-link">
           {resource.name}
         </a>
       </h2>

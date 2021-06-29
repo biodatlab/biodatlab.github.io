@@ -26,7 +26,7 @@ export default function Template({
           )}
           {!!frontmatter.thumbnail && (
             <div className="avatar-container">
-              <img src={frontmatter.thumbnail} className="people-avatar" />
+              <img src={frontmatter.thumbnail} className="people-avatar" alt={frontmatter.title} />
               <h1 className="post-title">{frontmatter.title}</h1>
               <div className="post-meta people-meta">{frontmatter.metaDescription}</div>
             </div>
