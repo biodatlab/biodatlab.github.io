@@ -2,15 +2,15 @@
 template: BlogPost
 path: /resources/joining-the-lab
 date: 2021-10-01T07:08:53.137Z
-title: Joining the lab
+title: Resources for incoming members
 thumbnail: ''
 metaDescription: Some resources before joining the lab
 ---
 
 Joining the lab might be overwhelming since we work on a broacd range of applied machine learning
-and natural language processing. As most of students may come from biomedical background, learning some
-tools as you join the lab will be very useful later on. There are a few tools which are very useful.
-I listed below:
+and natural language processing. As most of incoming students may come from biomedical background,
+learning some tools as you join the lab will be very useful later on. I listed some of the useful
+tools below:
 
 ## Shell Script
 
@@ -26,10 +26,10 @@ find tutorials on shell scripts (Bash, Zsh, ...). I list some of them below.
 We generally use `git` as our version control and store many repositories on GitHub.
 Here, familarize yourself with Git will help a lot in your code development.
 
-- [มาเริ่มใช้ Git กัน [part 1]](https://tupleblog.github.io/use-git-part1/)
+- [มาเริ่มใช้ Git กัน [part 1]](https://tupleblog.github.io/use-git-part1/) in Thai
 - Linkedin Git Essential Training: The Basics
 
-There are many more tutorials today. Make sure you know all the basic terms such as add,
+There are many more tutorials today. Make sure you know all the basic git terms such as add,
 pull, fetch, merge, pull request.
 ## Python
 
@@ -44,3 +44,10 @@ Today, Machine Learning (ML) and Deep Learning (DL) is prevalent in science. Kno
 is useful. However, make sure that you learn the core concept of learning algorithms before applying
 ML or DL. There are multiple free online classes that you can learn ML and DL such as Andrew Ng's Machine Learning,
 or [Neuromatch Academy](https://academy.neuromatch.io/).
+
+## Recommended books
+
+- [The Science of Science, by Albert-László Barabási and Dashun Wang](https://www.dashunwang.com/book/the-science-of-science)
+- [Calling Bullshit: The Art of Skepticism in a Data-Driven World by Carl Bergstrom and Jevin D. West](https://www.goodreads.com/book/show/48889983-calling-bullshit)
+
+... I will continue adding more resources to this page.
