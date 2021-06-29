@@ -302,7 +302,7 @@ a {
   .grids {
     grid-template-columns: 1fr 1fr;
 
-    &.people {
+    &.small {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
@@ -311,7 +311,7 @@ a {
   .grids {
     grid-template-columns: 1fr 1fr 1fr;
 
-    &.people {
+    &.small {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
@@ -406,5 +406,6 @@ body.light {
   left: 2px;
 }
 
+@import "./index";
 @import "./people";
 @import "./publication";

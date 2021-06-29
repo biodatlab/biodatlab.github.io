@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
@@ -18,9 +18,19 @@ const IndexPage = ({
 }) => {
   const { theme } = useThemeContext()
 
-  useEffect(() => {
-    console.log('current theme', theme)
-  }, [theme])
+  const ResearchImages = home.research[theme].map((imgPath) => (
+    <div key={imgPath} className="image-container">
+      <img src={imgPath} alt={imgPath} />
+    </div>
+  ))
+
+  const FunderLogos = home.funder_logos[theme].map((imgPath) => (
+    <div key={imgPath} className="image-container funder">
+      <img src={imgPath} alt={imgPath} />
+    </div>
+  ))
+
+  console.log('home', home)
 
   return (
     <Layout>
@@ -29,12 +39,15 @@ const IndexPage = ({
         <meta name="description" content={description} />
       </Helmet>
       <HeroHeader/>
-      <h2>Research-{theme}</h2>
-      {/* <div className="grids 2">
-        {Collaborator}
-      </div> */}
+      <h2>Research</h2>
+      <div className="two-grids outer-container">
+        {ResearchImages}
+      </div>
       <h2>Funders</h2>
       <div className="primary-content">{home.funders}</div>
+      <div className="grids outer-container small">
+        {FunderLogos}
+      </div>
       <h2>Collaborators</h2>
       <div className="primary-content">{home.collaborators}</div>
       {/* <div className="grids 5">
@@ -57,6 +70,15 @@ export const pageQuery = graphql`
           interests
           funders
           collaborators
+          funder_logos {
+            dark
+            light
+          }
+          title
+          research {
+            dark
+            light
+          }
         }
       }
     }

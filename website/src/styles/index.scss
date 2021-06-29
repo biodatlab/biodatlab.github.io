@@ -1,0 +1,19 @@
+.outer-container {
+  margin-bottom: 64px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    max-width: 100%;
+    width: 400px;
+  }
+
+  &.funder {
+    padding: 8px;
+    margin-bottom: 0;
+  }
+}
