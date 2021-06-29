@@ -10,13 +10,13 @@
     "collaborators": "We collaborate with multiple researchers, institutes, conferences, and organizations from outside and in Thailand. This includes Neuromatch, Center for Open Science (COS), Konrad Kording Lab at the University of Pennsylvania, Daniel Acuna Lab at Syracuse University, 425Degree Thailand, VISTEC Thailand, AI Research Thailand, and many more.",
     "funder-logos": {
       "light": [
-        "/assets/logos/DARPA-light.png",
+        "/assets/logos/darpa-light.png",
         "/assets/logos/COS-light.png",
         "/assets/logos/neuromatch-light.png",
         "/assets/logos/ted-fund-light.png"
       ],
       "dark": [
-        "/assets/logos/DARPA-dark.png",
+        "/assets/logos/darpa-dark.png",
         "/assets/logos/COS-dark.png",
         "/assets/logos/neuromatch-dark.png",
         "/assets/logos/ted-fund-dark.png"
