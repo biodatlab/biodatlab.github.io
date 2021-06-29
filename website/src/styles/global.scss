@@ -92,6 +92,16 @@ a {
       margin-right: 0;
     }
   }
+
+  // allow scroll horizontally when needed
+  overflow-x: auto;
+  // but hide scrollbar on large screen
+  /* Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 .site-header {
   display: flex;
@@ -102,6 +112,7 @@ a {
   align-items: center;
 }
 .site-title a {
+  margin-right: 32px;
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 900;
