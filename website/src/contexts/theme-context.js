@@ -1,7 +1,4 @@
-import React, { createContext, useState } from 'react';
-
-const isBrowser = typeof window !== "undefined"
-const savedTheme = isBrowser ? window.localStorage.getItem('theme') : null
+import React, { createContext, useEffect, useState } from 'react';
 
 const ThemeContext = createContext({
   theme: 'light',
@@ -9,7 +6,14 @@ const ThemeContext = createContext({
 })
 
 const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState(savedTheme || 'light')
+  const [theme, setTheme] = useState('light')
+
+  useEffect(() => {
+    const isBrowser = typeof window !== "undefined"
+    const savedTheme = isBrowser ? window.localStorage.getItem('theme') : null
+
+    setTheme(savedTheme || 'light')
+  }, [])
 
   return (
     <ThemeContext.Provider value={{
