@@ -7,7 +7,7 @@ thumbnail: ''
 metaDescription: Some resources before joining the lab
 ---
 
-Joining the lab might be overwhelming since we work on a broacd range of applied machine learning
+Joining the lab might be overwhelming since we work on a broad range of applied machine learning
 and natural language processing. As most of incoming students may come from biomedical background,
 learning some tools as you join the lab will be very useful later on. I listed some of the useful
 tools below:
@@ -24,13 +24,14 @@ find tutorials on shell scripts (Bash, Zsh, ...). I list some of them below.
 ## Version control
 
 We generally use `git` as our version control and store many repositories on GitHub.
-Here, familarize yourself with Git will help a lot in your code development.
+Here, familiarize yourself with Git will help a lot in your code development.
 
 - [มาเริ่มใช้ Git กัน [part 1]](https://tupleblog.github.io/use-git-part1/) in Thai
 - Linkedin Git Essential Training: The Basics
 
 There are many more tutorials today. Make sure you know all the basic git terms such as add,
 pull, fetch, merge, pull request.
+
 ## Python
 
 Python has been used in a lot of our development. Therefore, programming in Python is almost needed
