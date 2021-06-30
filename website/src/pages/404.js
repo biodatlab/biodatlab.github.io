@@ -1,14 +1,14 @@
 import React from "react"
-import Helmet from 'react-helmet';
 import Layout from "../components/layout"
 import { Link } from "gatsby";
+import HelmetWrapper from '../components/helmetWrapper'
 
 const notFound = () => {
   return (
     <Layout>
-      <Helmet>
-        <title>Page not found</title>
-      </Helmet>
+      <HelmetWrapper
+        title="Page not found"
+      />
       <div style={{textAlign: "center", padding:"5vh 0", lineHeight: "1.5"}}>
         <svg
           width="256"

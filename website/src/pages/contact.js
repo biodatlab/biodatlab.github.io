@@ -1,7 +1,7 @@
 import React from "react"
-import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import HelmetWrapper from "../components/helmetWrapper"
 
 const ContactPage = ({
   data: {
@@ -10,10 +10,10 @@ const ContactPage = ({
 }) => {
   return (
     <Layout>
-      <Helmet>
-        <title>Contact | {site.siteMetadata.title}</title>
-        <meta name="description" content={"Contact page of " + site.siteMetadata.description} />
-      </Helmet>
+      <HelmetWrapper
+        title={`Contact | ${site.siteMetadata.title}`}
+        description={"Contact page of " + site.siteMetadata.description}
+      />
       <div className="two-grids -contact">
         <div>
           <h1 className="post-title">Contact us</h1>

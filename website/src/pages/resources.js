@@ -1,9 +1,9 @@
 import React from "react"
-import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import ResourceLink from "../components/resource-link"
 import PostLink from "../components/post-link"
+import HelmetWrapper from "../components/helmetWrapper"
 
 const ResourcePage = ({
   data: {
@@ -22,9 +22,9 @@ const ResourcePage = ({
 
   return (
     <Layout>
-      <Helmet>
-        <title>Resources</title>
-      </Helmet>
+      <HelmetWrapper
+        title="Resources"
+      />
       <h1>Resources</h1>
       <h2>Tools</h2>
       <div className="primary-content">

@@ -1,9 +1,9 @@
 import React from "react"
-import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import HeroHeader from "../components/heroHeader"
 import { useThemeContext } from "../contexts/theme-context";
+import HelmetWrapper from "../components/helmetWrapper";
 
 const IndexPage = ({
   data: {
@@ -32,10 +32,7 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-      </Helmet>
+      <HelmetWrapper />
       <HeroHeader/>
       <h2>Research</h2>
       <div className="two-grids outer-container">

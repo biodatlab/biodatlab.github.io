@@ -1,7 +1,7 @@
 import React from "react"
-import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import HelmetWrapper from "../components/helmetWrapper";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -9,15 +9,17 @@ export default function Template({
   const { site, markdownRemark } = data // data.markdownRemark holds your post data
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
+
   return (
     <Layout>
-      <Helmet>
-        <title>{frontmatter.title} | {siteMetadata.title}</title>
-        <meta name="description" content={frontmatter.metaDescription} />
-      </Helmet>
+      <HelmetWrapper
+        title={`${frontmatter.title} | ${siteMetadata.title}`}
+        description={frontmatter.metaDescription}
+        slug={frontmatter.path}
+        ogImage={frontmatter.thumbnail}
+      />
       <div className="blog-post-container">
         <article className="post">
-          
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>

@@ -1,12 +1,11 @@
 import React from "react"
-import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
+import HelmetWrapper from "../components/helmetWrapper";
 
 const BlogPage = ({
   data: {
-    site,
     allMarkdownRemark: { edges },
   },
 }) => {
@@ -17,9 +16,9 @@ const BlogPage = ({
 
   return (
     <Layout>
-      <Helmet>
-        <title>Blogs</title>
-      </Helmet>
+      <HelmetWrapper
+        title="Blogs"
+      />
       <h1>Blogs</h1>
       <div className="grids">
         {Posts}

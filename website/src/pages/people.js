@@ -1,8 +1,8 @@
 import React from "react"
-import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PeopleLink from "../components/people-link"
+import HelmetWrapper from "../components/helmetWrapper"
 
 const PeoplePage = ({
   data: {
@@ -16,9 +16,9 @@ const PeoplePage = ({
 
   return (
     <Layout>
-      <Helmet>
-        <title>People</title>
-      </Helmet>
+      <HelmetWrapper
+        title="People"
+      />
       <h1>People</h1>
       <div className="grids small">
         {People}
