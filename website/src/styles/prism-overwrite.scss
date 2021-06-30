@@ -1,0 +1,266 @@
+body.light {
+  --main-color: black;
+  --main-text-shadow: white;
+  --main-bg: #f5f2f0;
+  --token-comment: slategray;
+  --token-prolog: slategray;
+  --token-doctype: slategray;
+  --token-cdata: slategray;
+  --token-punctuation: #999;
+  --token-property: #905;
+  --token-tag: #905;
+  --token-boolean: #905;
+  --token-number: #905;
+  --token-constant: #905;
+  --token-symbol: #905;
+  --token-deleted: #905;
+  --token-selector: #690;
+  --token-attr-name: #690;
+  --token-string: #690;
+  --token-char: #690;
+  --token-builtin: #690;
+  --token-inserted: #690;
+  --token-operator: #9a6e3a;
+  --token-entity: #9a6e3a;
+  --token-url: #9a6e3a;
+  --token-atrule: #07a;
+  --token-attr-value: #07a;
+  --token-keyword: #07a;
+  --token-function: #dd4a68;
+  --token-class-name: #dd4a68;
+  --token-regex: #e90;
+  --token-important: #e90;
+  --token-variable: #e90;
+}
+
+body.dark {
+  --main-color: #ccc;
+  --main-text-shadow: transparent;
+  --main-bg: #2d2d2d;
+  --token-comment: #999;
+  --token-block-comment: #999;
+  --token-prolog: #999;
+  --token-doctype: #999;
+  --token-cdata: #999;
+  --token-punctuation: #ccc;
+  --token-tag: #e2777a;
+  --token-attr-name: #e2777a;
+  --token-namespace: #e2777a;
+  --token-deleted: #e2777a;
+  --token-function-name: #6196cc;
+  --token-boolean: #f08d49;
+  --token-number: #f08d49;
+  --token-function: #f08d49;
+  --token-property: #f8c555;
+  --token-class-name: #f8c555;
+  --token-constant: #f8c555;
+  --token-symbol: #f8c555;
+  --token-selector: #cc99cd;
+  --token-important: #cc99cd;
+  --token-atrule: #cc99cd;
+  --token-keyword: #cc99cd;
+  --token-builtin: #cc99cd;
+  --token-string: #7ec699;
+  --token-char: #7ec699;
+  --token-attr-value: #7ec699;
+  --token-regex: #7ec699;
+  --token-variable: #7ec699;
+  --token-operator: #67cdcc;
+  --token-entity: #67cdcc;
+  --token-url: #67cdcc;
+  --token-inserted: green;
+}
+
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: var(--main-color);
+  background: none;
+  text-shadow: 0 1px var(--main-text-shadow);
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+@media print {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: none;
+  }
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: var(--main-bg);
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.comment {
+  color: var(--token-comment);
+}
+.token.prolog {
+  color: var(--token-prolog);
+}
+.token.doctype {
+  color: var(--token-doctype);
+}
+.token.cdata {
+  color: var(--token-cdata);
+}
+.token.punctuation {
+  color: var(--token-punctuation);
+}
+.token.namespace {
+  color: var(--token-namespace);
+  opacity: 0.7;
+}
+.token.property {
+  color: var(--token-property);
+}
+.token.tag {
+  color: var(--token-tag);
+}
+.token.boolean {
+  color: var(--token-boolean);
+}
+.token.number {
+  color: var(--token-number);
+}
+.token.constant {
+  color: var(--token-constant);
+}
+.token.symbol {
+  color: var(--token-symbol);
+}
+.token.deleted {
+  color: var(--token-deleted);
+}
+.token.selector {
+  color: var(--token-selector);
+}
+.token.attr-name {
+  color: var(--token-attr-name);
+}
+.token.string {
+  color: var(--token-string);
+}
+.token.char {
+  color: var(--token-char);
+}
+.token.builtin {
+  color: var(--token-builtin);
+}
+.token.inserted {
+  color: var(--token-inserted);
+}
+.token.operator {
+  color: var(--token-operator);
+}
+.token.entity {
+  color: var(--token-entity);
+}
+.token.url {
+  color: var(--token-url);
+}
+.language-css .token.string,
+.style .token.string {
+  color: #9a6e3a;
+  /* This background color was intended by the author of this theme. */
+  background: hsla(0, 0%, 100%, 0.5);
+}
+.token.atrule {
+  color: var(--token-atrule);
+}
+.token.attr-value {
+  color: var(--token-attr-value);
+}
+.token.keyword {
+  color: var(--token-keyword);
+}
+.token.function {
+  color: var(--token-function);
+}
+.token.class-name {
+  color: var(--token-class-name);
+}
+.token.regex {
+  color: var(--token-regex);
+}
+.token.important {
+  color: var(--token-important);
+}
+.token.variable {
+  color: var(--token-variable);
+}
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+.token.entity {
+  cursor: help;
+}
+// dark only
+.token.block-comment {
+  color: var(--token-block-comment);
+}
+.token.function-name {
+  color: var(--token-function-name);
+}
+// overwrite spacing
+:not(pre) > code[class*="language-"] {
+  padding: 0.15em 0.35em;
+}
+pre[class*="language-"] {
+  margin-bottom: 16px !important;
+}
