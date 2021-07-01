@@ -40,7 +40,7 @@ const IndexPage = ({
       </div>
       <h2>Funders</h2>
       <div className="primary-content">{home.funders}</div>
-      <div className="grids outer-container small">
+      <div className="grids outer-container small small-on-mobile">
         {FunderLogos}
       </div>
       <h2>Collaborators</h2>

@@ -224,6 +224,10 @@ a {
   grid-template-columns: 1fr;
   grid-gap: 32px;
   margin-top: 32px;
+
+  &.small-on-mobile {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 .two-grids {
   display: grid;
