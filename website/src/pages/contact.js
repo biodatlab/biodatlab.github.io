@@ -19,7 +19,7 @@ const ContactPage = ({
           <h1 className="post-title">Contact us</h1>
           <div className="primary-content">
             If you are interested to join the lab or collaborate, please do not hesitate to send
-            Titipat an email or using the form in this page &rarr;
+            Titipat an email (my.titipat [AT] gmail.com) or using the form in this page &rarr;
           </div>
           <div className="primary-content">
             <b>Undergraduate students: </b>
@@ -29,11 +29,12 @@ const ContactPage = ({
           <div className="primary-content">
             <b>Graduate students: </b>
             Due to limitation of the Mahidol university's rule, I cannot hire graduate
-            students yet. If you are interested in doing research with Titipat,
-            please email and arrange a discussion before applying. You can potentially apply to the
-            Department of Biomedical engineering at Mahidol University, Vidyasirimedhi Institute of
-            Science and Technology (VISTEC), or Chulalongkorn University, Thailand, where I
-            can co-advise. There are multiple options if you are interested.
+            students yet. If you are interested in doing research,
+            please send a CV with a brief research interest. Then you can arrange a discussion before applying.
+            You can potentially apply to the Department of Biomedical engineering at Mahidol University,
+            Vidyasirimedhi Institute of Science and Technology (VISTEC),
+            or Chulalongkorn University, Thailand, where I can co-advise.
+            There are multiple options if you are interested.
           </div>
           <div className="primary-content">
             <b>Other positions: </b>

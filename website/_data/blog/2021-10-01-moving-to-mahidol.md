@@ -32,6 +32,13 @@ in biomedical domain. I put my current interests below:
     that we can apply ML for movement science which I would like to continue collaborating with experts
     in this area.
 
+## Current projects
+
+- Graph Convolutional Neural Network for Academic Trees (Science of Science)
+- Scaling matching algorithms for Neuromatch (Science of Science)
+- Credit assignments for reviewer network (Science of Science)
+- Automatic exercise feedback (Biomedical)
+
 ## Thought about starting the lab and collaborations
 
 Thailand has some policy limitations and small funding landscapes. For example, they have
