@@ -2,11 +2,26 @@ import React from "react"
 
 const PublicationLink = ({ publication }) => {
 
-  const secondLine = publication.journal
+  const secondLineInfo = publication.journal
     ? publication.year
       ? `${publication.journal}, ${publication.year}`
       : publication.journal
     : publication.year
+
+  const secondLinePdf = publication.pdf
+    ? (
+      <>
+        &nbsp;&#183;&nbsp;
+        <a
+          href={publication.pdf}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          [PDF]
+        </a>
+      </>
+    )
+    : null
 
   return (
   <div className="publication-item">
@@ -16,7 +31,11 @@ const PublicationLink = ({ publication }) => {
       </a>
     </h2>
     <div className="publication-meta">{publication.authors}</div>
-    <div className="publication-meta">{secondLine}</div>
+    <div className="publication-meta">
+      {secondLineInfo}
+      {secondLinePdf}
+    </div>
   </div>
 )}
+
 export default PublicationLink

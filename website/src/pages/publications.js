@@ -53,6 +53,7 @@ export const pageQuery = graphql`
           journal
           year
           url
+          pdf
         }
       }
     }
