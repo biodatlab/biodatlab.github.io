@@ -23,6 +23,7 @@
   journal: Elife 9, e57892
   url: https://elifesciences.org/articles/57892
   year: 2020
+  pdf: /assets/publications/titipat-elife-2020.pdf
 - title: "Pyglmnet: Python implementation of elastic-net regularized generalized linear models"
   authors: M Jas, T Achakulvisut, A Idrizović, D Acuna, M Antalek, V Marques, ...
   journal: Journal of Open Source Software 5 (47)
@@ -48,3 +49,4 @@
   journal: Trends in Cognitive Sciences
   url: https://www.sciencedirect.com/science/article/abs/pii/S1364661321000097
   year: 2021
+  pdf: /assets/publications/titipat-tics-2021.pdf
