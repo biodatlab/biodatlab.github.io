@@ -1,10 +1,10 @@
 # Lab website
 
 Build with [gatsby-starter-delog](https://github.com/W3Layouts/gatsby-starter-delog).
-You can run the website as follows:
+You can run the website from the root of this repository as follows:
 
-``` sh
-cd website
+```sh
+npm install
 gatsby develop # see localhost:8000
 ```
 
