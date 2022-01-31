@@ -9,17 +9,17 @@ metaDescription: Principal investigator
 order: 0
 ---
 
-- Lecturer at Mahidol University
+- Tenure track lecturer at Mahidol University
 - Email: my.titipat@gmail.com
 
-Titipat Achakulvisut runs the bio-data lab at Mahidol University, Nakhon Pathom, Thailand. He completed his Ph.D. in Bioengineering at University of Pennsylvania with Konrad Kording working on applying natural language processing and machine learning to improve scientific processes. His interests are to combine NLP, ML, and tools to improve science itself. In extension to his core research, he also broadly interests in applying ML and NLP in biomedical and business domains in Thailand where he collaborate with multiple research groups and companies in Thailand pushing NLP and ML for real use cases.
+Titipat Achakulvisut runs the biomedial and data lab (BAD lab) at Mahidol University, Nakhon Pathom, Thailand. He completed his Ph.D. in Bioengineering at University of Pennsylvania with Konrad Kording working on applying natural language processing and machine learning to improve scientific processes. His interests are to combine NLP, ML, and tools to improve science itself. In extension to his core research, he also broadly interests in applying ML and NLP in biomedical and business domains in Thailand where he collaborate with multiple research groups and companies in Thailand pushing NLP and ML for real use cases.
 
-## Positions and previous positions
+## Positions and previous work
 
 - Founder of Neuromatch [neuromatch.io](https://neuromatch.io/)
+- Organizer of Neuromatch Conferences (NMC) [conference.neuromatch.io](https://conference.neuromatch.io/)
 - Online Co-chair at Asian Conference in Machine Leanring (ACML) 2021
 - VISTEC-depa Thailand AI Research Institute [https://airesearch.in.th/](https://airesearch.in.th/)
-- Co-advise students at Vidyasirimedhi Institute of Science and Technology (VISTEC), Thailand
 - Asian Conference in Machine Learning (ACML) workshop on Machine learning 2020 (see [here](https://acml-conf.github.io/2020-workshop-ml-in-thailand/))
 
 ## Outside research
