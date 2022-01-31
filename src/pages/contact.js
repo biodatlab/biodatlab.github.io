@@ -4,8 +4,17 @@ import React, { useEffect, useState } from "react";
 import HelmetWrapper from "../components/helmetWrapper";
 import Layout from "../components/layout";
 
+const RequiredWarning = ({ fieldName }) => {
+  return (
+    <span style={{ color: "#ff4542" }}>{` — ${fieldName} is required!`}</span>
+  );
+};
+
 const ContactPage = ({ data: { site } }) => {
   const [submitted, setSubmitted] = useState(false);
+  const [isSending, setIsSending] = useState(false);
+
+  const [formError, setFormError] = useState([]);
 
   useEffect(() => {
     init("user_LLZGUBFaiQGwK3qDYrTrV");
@@ -61,26 +70,42 @@ const ContactPage = ({ data: { site } }) => {
 
               const formdata = new FormData(e.target);
 
-              const name = formdata.get("w3lName");
-              const replyTo = formdata.get("w3lSender");
-              const subject = formdata.get("w3lSubject");
-              const message = formdata.get("w3lMessage");
+              const templateParams = {
+                name: formdata.get("w3lName"),
+                replyTo: formdata.get("w3lSender"),
+                subject: formdata.get("w3lSubject"),
+                message: formdata.get("w3lMessage")
+              };
 
-              emailjs
-                .send("service_31gu986", "template_ek909s9", {
-                  name,
-                  replyTo,
-                  subject,
-                  message
-                })
-                .then(
-                  () => {
-                    setSubmitted(true);
-                  },
-                  rej => {
-                    console.log("failed with result:", rej);
-                  }
-                );
+              // check required fields
+              let checkedFields = [];
+
+              Object.entries(templateParams).forEach(([key, value]) => {
+                if (!value) {
+                  checkedFields.push(key);
+                } else {
+                  checkedFields = checkedFields.filter(field => field !== key);
+                }
+              });
+
+              // set state as batch to avoid race condition
+              setFormError(checkedFields);
+
+              // if there are no errors, send email
+              if (checkedFields.length === 0) {
+                setIsSending(true);
+
+                emailjs
+                  .send("service_31gu986", "template_ek909s9", templateParams)
+                  .then(
+                    () => {
+                      setSubmitted(true);
+                    },
+                    rej => {
+                      console.log("failed with result:", rej);
+                    }
+                  );
+              }
             }}
           >
             {submitted ? (
@@ -91,28 +116,51 @@ const ContactPage = ({ data: { site } }) => {
             ) : (
               <>
                 <div>
-                  <label htmlFor="w3lName">Name</label>
+                  <label htmlFor="w3lName">
+                    Name{" "}
+                    {formError.includes("name") && (
+                      <RequiredWarning fieldName={"Name"} />
+                    )}
+                  </label>
                   <input type="text" name="w3lName" id="w3lName" />
                 </div>
                 <div>
-                  <label htmlFor="w3lSender">Email</label>
+                  <label htmlFor="w3lSender">
+                    Email
+                    {formError.includes("replyTo") && (
+                      <RequiredWarning fieldName={"Email"} />
+                    )}
+                  </label>
                   <input type="email" name="w3lSender" id="w3lSender" />
                 </div>
                 <div>
-                  <label htmlFor="w3lSubject">Subject</label>
+                  <label htmlFor="w3lSubject">
+                    Subject
+                    {formError.includes("subject") && (
+                      <RequiredWarning fieldName={"Subject"} />
+                    )}
+                  </label>
                   <input type="text" name="w3lSubject" id="w3lSubject" />
                 </div>
                 <div>
-                  <label htmlFor="w3lMessage">Message</label>
+                  <label htmlFor="w3lMessage">
+                    Message
+                    {formError.includes("message") && (
+                      <RequiredWarning fieldName={"Message"} />
+                    )}
+                  </label>
                   <textarea name="w3lMessage" id="w3lMessage"></textarea>
                 </div>
-                <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                  <input
-                    type="submit"
-                    className="button -primary"
-                    style={{ marginRight: 0 }}
-                  />
-                </div>
+                {!isSending && (
+                  <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                    <input
+                      type="submit"
+                      className="button -primary"
+                      style={{ marginRight: 0 }}
+                      disabled={isSending}
+                    />
+                  </div>
+                )}
               </>
             )}
           </form>
