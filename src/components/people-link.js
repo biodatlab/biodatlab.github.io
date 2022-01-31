@@ -1,25 +1,31 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
-const PeopleLink = ({ post }) => (
+const PeopleLink = ({ data }) => (
   <article className="card ">
-    <Link to={post.frontmatter.path}>
-      {!!post.frontmatter.thumbnail && (
+    <Link to={data.frontmatter.path}>
+      {!!data.frontmatter.thumbnail && (
         <img
           className="people-avatar"
-          src={post.frontmatter.thumbnail}
-          alt={post.frontmatter.title + "- Featured Shot"}
+          src={data.frontmatter.thumbnail}
+          alt={data.frontmatter.title + "- Featured Shot"}
         />
       )}
     </Link>
     <header>
       <h2 className="post-title">
-        <Link to={post.frontmatter.path} className="post-link">
-          {post.frontmatter.title}
+        <Link to={data.frontmatter.path} className="post-link">
+          {data.frontmatter.title}
         </Link>
       </h2>
-      <div className="post-meta">{post.frontmatter.metaDescription}</div>
+      {data.frontmatter.position !== "alumni" ? (
+        <div className="post-meta">{data.frontmatter.metaDescription}</div>
+      ) : (
+        <div className="post-meta">
+          {`Joined as ${data.frontmatter.metaDescription}, ${data.frontmatter.endYear}`}
+        </div>
+      )}
     </header>
   </article>
-)
-export default PeopleLink
+);
+export default PeopleLink;
