@@ -14,7 +14,12 @@
 }
 
 .people-avatar {
-  width: 12rem;
-  height: 12rem;
-  border-radius: 9999px;
+  object-fit: cover;
+  aspect-ratio: 1;
+
+  &.details {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 9999px;
+  }
 }
