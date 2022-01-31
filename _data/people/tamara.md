@@ -4,7 +4,8 @@ path: /people/tamara
 date: 2022-02-01T06:15:50.738Z
 title: Tamara Blagojevic
 thumbnail: /assets/people/tamara.jpg
-position: member
+position: alumni
+endYear: 2021
 metaDescription: Undergraduate student
 order: 5
 ---

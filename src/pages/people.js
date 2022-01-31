@@ -1,33 +1,48 @@
-import React from "react"
-import { graphql } from 'gatsby'
-import Layout from "../components/layout"
-import PeopleLink from "../components/people-link"
-import HelmetWrapper from "../components/helmetWrapper"
+import React from "react";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
+import PeopleLink from "../components/people-link";
+import HelmetWrapper from "../components/helmetWrapper";
 
 const PeoplePage = ({
   data: {
-    allMarkdownRemark: { edges },
-  },
+    allMarkdownRemark: { edges }
+  }
 }) => {
+  const currentPeople = edges
+    .filter(
+      edge =>
+        !!edge.node.frontmatter.date &&
+        edge.node.frontmatter.position !== "alumni"
+    )
+    .map(edge => <PeopleLink key={edge.node.id} data={edge.node} />);
 
-  const People = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PeopleLink key={edge.node.id} post={edge.node} />)
+  const prevPeople = edges
+    .filter(
+      edge =>
+        !!edge.node.frontmatter.date &&
+        edge.node.frontmatter.position === "alumni"
+    )
+    .map(edge => <PeopleLink key={edge.node.id} data={edge.node} />);
+
+  console.log(edges);
 
   return (
     <Layout>
-      <HelmetWrapper
-        title="People"
-      />
+      <HelmetWrapper title="People" />
       <h1>People</h1>
-      <div className="grids small">
-        {People}
+      <div className="grids small" style={{ marginBottom: "32px" }}>
+        {currentPeople}
+      </div>
+      <h2>Previous lab members</h2>
+      <div className="grids small" style={{ marginBottom: "32px" }}>
+        {prevPeople}
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default PeoplePage
+export default PeoplePage;
 export const pageQuery = graphql`
   query peoplePageQuery {
     site {
@@ -36,7 +51,10 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: {order: ASC, fields: [frontmatter___order]}, filter: {frontmatter: {path: {regex: "/people/"}}}) {
+    allMarkdownRemark(
+      sort: { order: ASC, fields: [frontmatter___order] }
+      filter: { frontmatter: { path: { regex: "/people/" } } }
+    ) {
       edges {
         node {
           id
@@ -47,9 +65,11 @@ export const pageQuery = graphql`
             title
             thumbnail
             metaDescription
+            position
+            endYear
           }
         }
       }
     }
   }
-`
+`;
