@@ -18,6 +18,10 @@ const ContactPage = ({ data: { site } }) => {
 
   useEffect(() => {
     init("user_LLZGUBFaiQGwK3qDYrTrV");
+
+    console.log(process.env.GATSBY_EMAILJS_USER_ID)
+    console.log(process.env.GATSBY_EMAILJS_SERVICE_ID)
+    console.log(process.env.GATSBY_EMAILJS_TEMPLATE_ID)
   }, []);
 
   return (
