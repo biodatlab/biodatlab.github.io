@@ -4,6 +4,11 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+// only used for dev locally -- not on vercel
+require("dotenv").config({
+  path: ".env"
+});
+
 module.exports = {
   /* Your site config here */
   siteMetadata: require("./site-meta-data.json"),

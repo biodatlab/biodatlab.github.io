@@ -17,11 +17,7 @@ const ContactPage = ({ data: { site } }) => {
   const [formError, setFormError] = useState([]);
 
   useEffect(() => {
-    init("user_LLZGUBFaiQGwK3qDYrTrV");
-
-    console.log(process.env.GATSBY_EMAILJS_USER_ID)
-    console.log(process.env.GATSBY_EMAILJS_SERVICE_ID)
-    console.log(process.env.GATSBY_EMAILJS_TEMPLATE_ID)
+    init(process.env.GATSBY_EMAILJS_USER_ID);
   }, []);
 
   return (
@@ -100,7 +96,11 @@ const ContactPage = ({ data: { site } }) => {
                 setIsSending(true);
 
                 emailjs
-                  .send("service_31gu986", "template_ek909s9", templateParams)
+                  .send(
+                    process.env.GATSBY_EMAILJS_SERVICE_ID,
+                    process.env.GATSBY_EMAILJS_TEMPLATE_ID,
+                    templateParams
+                  )
                   .then(
                     () => {
                       setSubmitted(true);
