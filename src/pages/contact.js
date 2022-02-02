@@ -51,10 +51,10 @@ const ContactPage = ({ data: { site } }) => {
             multiple options if you are interested.
           </div>
           <div className="primary-content">
-            <b>Other positions: </b>I am always actively looking for interns and
-            developers. If you are interested in doing internship or other
-            positions such as developers, please also do not hesitate to email
-            Titipat to discuss.
+            <b>Other positions: </b>I always actively look for interns and
+            developers. If you are interested in doing internship (locally or
+            remotely) or other positions such as developers, please also do not
+            hesitate to email Titipat to discuss.
           </div>
           <div className="primary-content">
             <b>Office: </b>
@@ -65,7 +65,7 @@ const ContactPage = ({ data: { site } }) => {
         <div>
           <form
             className="form-container"
-            onSubmit={e => {
+            onSubmit={(e) => {
               e.preventDefault();
 
               const formdata = new FormData(e.target);
@@ -74,7 +74,7 @@ const ContactPage = ({ data: { site } }) => {
                 name: formdata.get("w3lName"),
                 replyTo: formdata.get("w3lSender"),
                 subject: formdata.get("w3lSubject"),
-                message: formdata.get("w3lMessage")
+                message: formdata.get("w3lMessage"),
               };
 
               // check required fields
@@ -84,7 +84,9 @@ const ContactPage = ({ data: { site } }) => {
                 if (!value) {
                   checkedFields.push(key);
                 } else {
-                  checkedFields = checkedFields.filter(field => field !== key);
+                  checkedFields = checkedFields.filter(
+                    (field) => field !== key
+                  );
                 }
               });
 
@@ -105,7 +107,7 @@ const ContactPage = ({ data: { site } }) => {
                     () => {
                       setSubmitted(true);
                     },
-                    rej => {
+                    (rej) => {
                       console.log("failed with result:", rej);
                     }
                   );
