@@ -1,6 +1,6 @@
-import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import Navigation from "../components/navigation"
+import React from "react";
+import { Link, useStaticQuery, graphql } from "gatsby";
+import Navigation from "../components/navigation";
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -13,7 +13,7 @@ export default ({ children }) => {
         }
       }
     `
-  )
+  );
 
   return (
     <div className="site-wrapper">
@@ -26,23 +26,13 @@ export default ({ children }) => {
       {children}
       <footer className="site-footer">
         <p>
-          &copy;
-          {' '}
-          {new Date().getFullYear()}
-          {' '}
-          BAD Lab
-          {' '}
-          &bull;
-          {' '}
-          Crafted with
-          {' '}
-          <span role="img" aria-label="love">❤️</span>
-          &nbsp;
-          by
-          {' '}
-          <a href="https://github.com/titipata">BAD Lab</a>
+          &copy; {new Date().getFullYear()} BioDat Lab &bull; Crafted with{" "}
+          <span role="img" aria-label="love">
+            ❤️
+          </span>
+          &nbsp; by <a href="https://github.com/titipata">titipata</a>
         </p>
       </footer>
     </div>
-  )
-}
+  );
+};
