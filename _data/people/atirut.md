@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/atirut
 date: 2022-04-23T06:15:50.738Z
 title: Atirut Boribalburephan
-thumbnail: /assets/people/atirut.jpeg
+thumbnail: /assets/people/atirut.jpg
 position: member
 metaDescription: Research Intern
 order: 8
