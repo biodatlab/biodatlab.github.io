@@ -12,10 +12,17 @@ Python and CUDA installed. To use the server, you can ask and admin to create
 the new user. Here is an instruction for creating the new user and setting up
 `.bashrc` file.
 
+## In gist
+
+You have to do 2 things
+
+1. Create new user from root account
+2. Add python path to your `~/.bashrc` file
+
 ## Create a new user
 
 We follow [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-ubuntu-20-04-quickstart)
-for creating the new user. You have to do the following:
+for creating the new user. You have to do the following from the root:
 
 ```sh
 adduser <yourteamname> # such as badcrew
@@ -25,7 +32,7 @@ Then fill the information needed such as password and basic
 information. Now, you can use `su <yourteamname>` to access the user or simply
 log-in to the new account if you're at the server.
 
-## Copy Python path
+## Add python path to your user
 
 We only install Python from the root. You should **not**
 try to install Python yourself from your own user. To add
