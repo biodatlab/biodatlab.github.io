@@ -29,8 +29,13 @@ adduser <yourteamname> # such as badcrew
 ```
 
 Then fill the information needed such as password and basic
-information. Now, you can use `su <yourteamname>` to access the user or simply
-log-in to the new account if you're at the server.
+information. Now, you can use
+
+```py
+su <yourteamname>
+```
+
+to access the user or simply log-in to the new account if you're at the server.
 
 ## Add python path to your user
 
@@ -71,4 +76,19 @@ idea and code before running on the server.
 
 ## Accessing the server
 
-TBA
+There are multiple ways to access the server. One way is to use the **Jupyter notebook**.
+If you are on the same network as the server. Run the following:
+
+```py
+jupyter notebook --ip * --port 8888 --no-browser
+```
+
+Then you use the notebook token and then access the browser via its IP address.
+You can find IP address of the server by running
+
+```
+ifconfig
+```
+
+To get the current IP address of the server. Another way to access the notebook is
+to use `ssh` to access the server (TBA).
