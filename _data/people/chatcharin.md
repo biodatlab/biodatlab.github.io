@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /people/chatcharin
-date: 2022-04-23T06:15:50.738Z
+date: 2022-05-22T18:18:30Z
 title: Chatcharin Sangbutsarakum (Win)
 thumbnail: /assets/people/chatcharin.jpg
 position: member
