@@ -3,7 +3,7 @@ template: BlogPost
 path: /resources/joining-the-lab
 date: 2021-10-01T07:08:53.137Z
 title: Resources for incoming members
-thumbnail: ''
+thumbnail: ""
 metaDescription: Some resources before joining the lab
 ---
 
@@ -41,10 +41,10 @@ learn linear algebra, data science, and machine learning with some of the Python
 
 ## Machine Learning and Deep Learning
 
-Today, Machine Learning (ML) and Deep Learning (DL) is prevalent in science. Knowing some of them
-is useful. However, make sure that you learn the core concept of learning algorithms before applying
-ML or DL. There are multiple free online classes that you can learn ML and DL such as Andrew Ng's Machine Learning,
-or [Neuromatch Academy](https://academy.neuromatch.io/).
+Today, Machine Learning (ML) and Deep Learning (DL) are a popular tools to build models in many projects.
+Understanding the basis of these tools are useful. Make sure that you learn the core concept of learning algorithms before applying
+to your project. There are multiple free online classes that you can learn ML and DL such as Andrew Ng's Machine Learning, [Neuromatch Academy](https://academy.neuromatch.io/), [Deep learning's book by Goodfellow and Bengio](https://www.deeplearningbook.org/),
+and more.
 
 ## Recommended books
 
