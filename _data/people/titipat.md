@@ -24,7 +24,7 @@ Titipat Achakulvisut runs the biomedial and data lab (BioDat lab) at the Departm
 
 ## Outside research
 
-Titipat actively write his blog posts in Thai at [tupleblog](https://tupleblog.github.io/), contribute to open-source community (see [github.com/titipata/](https://github.com/titipata/)), answer questions on Stack Overflow (see [Stack Overflow](https://stackoverflow.com/users/3626961/titipata)), and push local machine learning and natural language processing (NLP) communities in Thailand. He co-created a program for high school students to learn basic data science and artificial intelligence, [AI Builders](https://vistec-ai.github.io/ai-builders/). He also actively work with companies such as [425Degree](https://www.425degree.com/), Thailand, where he applies data science and machine learning approaches to solve business questions.
+Titipat actively write his blog posts in Thai at [tupleblog](https://tupleblog.github.io/), contribute to open-source community (see [github.com/titipata/](https://github.com/titipata/)), answer questions on Stack Overflow (see [Stack Overflow](https://stackoverflow.com/users/3626961/titipata)), and push local machine learning and natural language processing (NLP) communities in Thailand. He co-created a program for high school students to learn basic data science and artificial intelligence, [AI Builders](https://ai-builders.github.io/). He also actively work with companies such as [425Degree](https://www.425degree.com/), Thailand, where he applies data science and machine learning approaches to solve business questions.
 
 ## More information
 
