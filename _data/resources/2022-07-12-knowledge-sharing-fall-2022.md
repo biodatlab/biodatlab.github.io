@@ -1,10 +1,10 @@
 ---
 template: BlogPost
 path: /resources/knowledge-sharing-fall-2022
-date: 2022-06-19T07:08:53.137Z
-title:
+date: 2022-07-12T07:08:53.137Z
+title: Knowledge sharing (Fall 2022)
 thumbnail: ""
-metaDescription: Knowledge sharing (Fall 2022)
+metaDescription: Knowledge sharing sessions at Biomedical and Data Lab, Fall 2022.
 ---
 
 We decide to have a first knowledge sharing sessions at the lab.
@@ -33,4 +33,4 @@ Some of the concepts are well described in [Steve Brunton](https://www.youtube.c
 and [Nathan Kutz](https://www.youtube.com/watch?v=ViZYXxuxUKA) lectures. If you are interested in signal processing,
 feel free to watch more videos there.
 
-I am looking forward to learn together with the lab in a coming semester.
+I am looking forward to learn together with all the lab members in this coming semester.
