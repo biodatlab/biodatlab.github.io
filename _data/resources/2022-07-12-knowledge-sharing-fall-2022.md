@@ -13,7 +13,7 @@ The session is as follow:
 
 | Date       | Time          | Topic                                                    | Speaker      |
 | ---------- | ------------- | -------------------------------------------------------- | ------------ |
-| 03/08/2022 | 16:00 - 17:30 | Basic DL for NLP, Huggingface                            | Name         |
+| 10/08/2022 | 16:00 - 17:30 | Basic DL for NLP, Huggingface                            | Name         |
 | 17/08/2022 | 16:00 - 17:30 | Fourier & Wavelet transforms                             | Earth, Tong  |
 | 31/08/2022 | 16:00 - 17:30 | Representation learning, Self-supervised learning        | Earth, Tong  |
 | 14/09/2022 | 16:00 - 17:30 | Deep learning for Object detection: Pytorch, mmdetection | Tk           |

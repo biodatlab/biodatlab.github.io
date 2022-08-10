@@ -5,7 +5,7 @@ date: 2022-04-23T06:15:50.738Z
 title: Atirut Boribalburephan
 thumbnail: /assets/people/atirut.jpg
 position: member
-metaDescription: Research Intern
+metaDescription: Research Assistant
 order: 8
 ---
 
