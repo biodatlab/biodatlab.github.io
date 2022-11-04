@@ -1,6 +1,6 @@
-import React from "react"
-import {Link} from "gatsby"
-import ThemeChanger from "../components/themeChanger"
+import React from "react";
+import { Link } from "gatsby";
+import ThemeChanger from "../components/themeChanger";
 
 export default (props) => (
   <nav className="navigation">
@@ -9,6 +9,6 @@ export default (props) => (
     <Link to="/blog">Blogs</Link>
     <Link to="/resources">Resources</Link>
     <Link to="/contact">Contact</Link>
-    <ThemeChanger/>
+    <ThemeChanger />
   </nav>
-)
+);

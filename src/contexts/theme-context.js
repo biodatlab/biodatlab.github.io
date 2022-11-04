@@ -1,12 +1,12 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useEffect, useState } from "react";
 
 const ThemeContext = createContext({
-  theme: 'light',
+  theme: "light",
   setTheme: () => {},
-})
+});
 
 const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
     const isBrowser = typeof window !== "undefined";
@@ -21,23 +21,25 @@ const ThemeProvider = ({ children }) => {
   }, []);
 
   return (
-    <ThemeContext.Provider value={{
-      theme,
-      setTheme,
-    }}>
+    <ThemeContext.Provider
+      value={{
+        theme,
+        setTheme,
+      }}
+    >
       {children}
     </ThemeContext.Provider>
-  )
-}
+  );
+};
 
 const useThemeContext = () => {
-  const themeState = React.useContext(ThemeContext)
+  const themeState = React.useContext(ThemeContext);
 
-  if (typeof themeState === 'undefined') {
-    throw new Error('useThemeContext must be used within a ThemeProvider')
+  if (typeof themeState === "undefined") {
+    throw new Error("useThemeContext must be used within a ThemeProvider");
   }
 
-  return themeState
-}
+  return themeState;
+};
 
-export { ThemeProvider, useThemeContext }
+export { ThemeProvider, useThemeContext };
