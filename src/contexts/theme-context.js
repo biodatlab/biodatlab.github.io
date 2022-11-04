@@ -9,11 +9,16 @@ const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('light')
 
   useEffect(() => {
-    const isBrowser = typeof window !== "undefined"
-    const savedTheme = isBrowser ? window.localStorage.getItem('theme') : null
+    const isBrowser = typeof window !== "undefined";
 
-    setTheme(savedTheme || 'light')
-  }, [])
+    if (isBrowser) {
+      const systemFallback = Array.from(document.body.classList);
+      const savedTheme =
+        window.localStorage.getItem("theme") || systemFallback?.[0];
+
+      setTheme(savedTheme || "light");
+    }
+  }, []);
 
   return (
     <ThemeContext.Provider value={{
