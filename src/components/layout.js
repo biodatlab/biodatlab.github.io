@@ -12,7 +12,7 @@ export default ({ children }) => {
           }
         }
       }
-    `
+    `,
   );
 
   return (

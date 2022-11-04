@@ -6,24 +6,24 @@ import HelmetWrapper from "../components/helmetWrapper";
 
 const PeoplePage = ({
   data: {
-    allMarkdownRemark: { edges }
-  }
+    allMarkdownRemark: { edges },
+  },
 }) => {
   const currentPeople = edges
     .filter(
-      edge =>
+      (edge) =>
         !!edge.node.frontmatter.date &&
-        edge.node.frontmatter.position !== "alumni"
+        edge.node.frontmatter.position !== "alumni",
     )
-    .map(edge => <PeopleLink key={edge.node.id} data={edge.node} />);
+    .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
 
   const prevPeople = edges
     .filter(
-      edge =>
+      (edge) =>
         !!edge.node.frontmatter.date &&
-        edge.node.frontmatter.position === "alumni"
+        edge.node.frontmatter.position === "alumni",
     )
-    .map(edge => <PeopleLink key={edge.node.id} data={edge.node} />);
+    .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
 
   console.log(edges);
 

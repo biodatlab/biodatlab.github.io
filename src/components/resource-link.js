@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const ResourceLink = ({ resource }) => (
   <article className="card ">
@@ -9,12 +9,17 @@ const ResourceLink = ({ resource }) => (
     </Link> */}
     <header>
       <h2 className="post-title">
-        <a href={resource.url} target="_blank" rel="noopener noreferrer" className="post-link">
+        <a
+          href={resource.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="post-link"
+        >
           {resource.name}
         </a>
       </h2>
       <div className="post-meta">{resource.description}</div>
     </header>
   </article>
-)
-export default ResourceLink
+);
+export default ResourceLink;

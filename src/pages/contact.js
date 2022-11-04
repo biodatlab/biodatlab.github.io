@@ -85,7 +85,7 @@ const ContactPage = ({ data: { site } }) => {
                   checkedFields.push(key);
                 } else {
                   checkedFields = checkedFields.filter(
-                    (field) => field !== key
+                    (field) => field !== key,
                   );
                 }
               });
@@ -101,7 +101,7 @@ const ContactPage = ({ data: { site } }) => {
                   .send(
                     process.env.GATSBY_EMAILJS_SERVICE_ID,
                     process.env.GATSBY_EMAILJS_TEMPLATE_ID,
-                    templateParams
+                    templateParams,
                   )
                   .then(
                     () => {
@@ -109,7 +109,7 @@ const ContactPage = ({ data: { site } }) => {
                     },
                     (rej) => {
                       console.log("failed with result:", rej);
-                    }
+                    },
                   );
               }
             }}
