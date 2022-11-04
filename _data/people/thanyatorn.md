@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/thanyatorn
 date: 2022-10-27T06:15:50.738Z
 title: Thanyatorn Leethamchayo
-thumbnail: /assets/people/thanyatorn.png
+thumbnail: /assets/people/thanyatorn.jpg
 position: member
 metaDescription: Undergraduate student
 order: 13
