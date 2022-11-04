@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 const PublicationLink = ({ publication }) => {
   const secondLineInfo = publication.journal
@@ -12,6 +13,20 @@ const PublicationLink = ({ publication }) => {
       &nbsp;&#183;&nbsp;
       <a href={publication.pdf} target="_blank" rel="noopener noreferrer">
         [PDF]
+      </a>
+    </>
+  ) : null;
+
+  const secondLineGitHub = publication?.github ? (
+    <>
+      &nbsp;&#183;&nbsp;
+      <a href={publication.github} target="_blank" rel="noopener noreferrer">
+        [
+        <span className="github-icon">
+          <FaGithub className="github-icon" />
+          {" GitHub"}
+        </span>
+        ]
       </a>
     </>
   ) : null;
@@ -32,6 +47,7 @@ const PublicationLink = ({ publication }) => {
       <div className="publication-meta">
         {secondLineInfo}
         {secondLinePdf}
+        {secondLineGitHub}
       </div>
     </div>
   );

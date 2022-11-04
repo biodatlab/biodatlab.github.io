@@ -10,8 +10,8 @@ const PublicationPage = ({
   },
 }) => {
   const Publication = edges
-    .filter((edge) => !!edge.node.title)
-    .map((edge) => (
+    .filter(edge => !!edge.node.title)
+    .map(edge => (
       <PublicationLink key={edge.node.id} publication={edge.node} />
     ));
 
@@ -51,6 +51,7 @@ export const pageQuery = graphql`
           year
           url
           pdf
+          github
         }
       }
     }
