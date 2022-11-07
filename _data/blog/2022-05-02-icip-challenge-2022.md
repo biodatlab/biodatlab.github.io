@@ -2,20 +2,20 @@
 template: BlogPost
 path: /blog/icip-challenge-2022
 date: 2022-05-02T07:08:53.137Z
-title: ICIP 2022 - Parasitic Egg Detection and Classification
+title: 3rd place on parasitic egg cell detection - IEEE ICIP 2022
 thumbnail: "/assets/blogs/icip-2022.png"
-metaDescription: Our lab participate in ICIP challenge 2022, Parasitic egg detection and classification in microscopic images
+metaDescription: Our lab participated the parasitic egg detection and classification from microscopic images and got 3rd place in the challenge.
 ---
 
 Parasitic infections are one of the leading causes of death and other ailments worldwide. Detecting such infections using traditional
 diagnostic procedures requires experienced medical technologists together with a significant amount of time and effort.
 An automated procedure with the ability to accurately detect parasitic diseases can accelerate the process greatly.
 Hence, in this work, we propose a deep learning-based parasitic egg detection pipeline. We trained deep learning models using parasitic
-egg detection and classification datasets provided by [ICIP Challenge 2022](https://icip2022challenge.piclab.ai/).
+egg detection and classification datasets provided by [ICIP Grand Challenge 2022](https://icip2022challenge.piclab.ai/).
 
-We are now rank 2 on the public leaderboard (see [here](https://icip2022challenge.piclab.ai/leaderboard/)) where we get an
-mIoU score of 92.946 and mF1Score of 98.633. The competition ends on May 31, 2022. Hopefully, we will rank on top 3 after the
-competition finishes! We will explain about the approaches we use on the paper and this blog post later on.
+Our solution got rank 3 at the competition happening at IEEE ICIP Conference in Bordeaux, France in October 2022.
+We got an mIoU score of 92.946 and mF1Score of 98.633. If you are interested in our solution, please check out our
+[paper](https://ieeexplore.ieee.org/document/9897464) and our [code](https://github.com/biodatlab/icip-challenge-2022).
 
 <p align="center">
   <img src="/assets/blogs/icip-2022.png" width=400>
