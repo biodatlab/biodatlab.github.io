@@ -15,7 +15,7 @@ egg detection and classification datasets provided by [ICIP Grand Challenge 2022
 
 Our solution got rank 3 at the competition happening at IEEE ICIP Conference in Bordeaux, France in October 2022.
 We got an mIoU score of 92.946 and mF1Score of 98.633. If you are interested in our solution, please check out our
-[paper](https://ieeexplore.ieee.org/document/9897464) and our [code](https://github.com/biodatlab/icip-challenge-2022).
+[paper on IEEE Explore](https://ieeexplore.ieee.org/document/9897464) and [our code on Github](https://github.com/biodatlab/icip-challenge-2022).
 
 <p align="center">
   <img src="/assets/blogs/icip-2022.png" width=400>
