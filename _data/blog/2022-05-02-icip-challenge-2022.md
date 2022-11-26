@@ -2,7 +2,7 @@
 template: BlogPost
 path: /blog/icip-challenge-2022
 date: 2022-05-02T07:08:53.137Z
-title: 3rd place on parasitic egg cell detection - IEEE ICIP 2022
+title: Our lab got 3rd place on parasitic egg cell detection at IEEE ICIP grand challenge 2022
 thumbnail: "/assets/blogs/icip-2022.png"
 metaDescription: Our lab participated the parasitic egg detection and classification from microscopic images and got 3rd place in the challenge.
 ---
