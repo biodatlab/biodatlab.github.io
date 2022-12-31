@@ -9,7 +9,7 @@
   url: https://www.nature.com/articles/s41467-018-07034-y
   year: 2018
 - title: "DeepCut: A Thai word tokenization library using Deep Neural Network"
-  authors: Rakpong Kittinaradorn, A Titipat, Korakot Chaovavanich, Kittinan Srithaworn, P Chormai, C Kaewkasi, T Ruangrong, K Oparad
+  authors: R Kittinaradorn, T Achakulvisut, K Chaovavanich, K Srithaworn, P Chormai, C Kaewkasi, T Ruangrong, K Oparad
   journal: ""
   url: https://github.com/rkcosmos/deepcut
   year: 2019
@@ -63,3 +63,7 @@
   url: https://ieeexplore.ieee.org/abstract/document/9897464
   pdf: /assets/publications/parasitic-detection-ieeeicip2022.pdf
   github: https://github.com/biodatlab/icip-challenge-2022
+- title: "Machine Learning Assisted Real-Time PCR and High-Resolutation Melt (qPCR-HRM) Analysis for SARS-CoV-2 Variant Identification (Accepted, TBA)"
+  authors: S Promja, J Puenpa, T Achakulvisut, Y Poovorawan, Y Su, P Athamanolap, B Lertanatawong
+  journal: Analytical Chemistry
+  year: 2022
