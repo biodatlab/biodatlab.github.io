@@ -1,3 +1,6 @@
+- name: "Thonburian Whisper: A fine-tuned Whisper model for Thai automatic speech recognition"
+  url: https://github.com/biodatlab/whisper-th-demo
+  description: "Thonburian Whisper is a fine-tuned Whisper model for Thai automatic speech recognition. It is fine-tuned using Whisper model from OpenAI using multiple open-data."
 - name: "Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset"
   url: https://github.com/titipata/pubmed_parser
   description: "Python parser for PubMed and MEDLINE data written from our lab. It can be used to parse bulk of data or quickly get biomedical publications for analysis."
