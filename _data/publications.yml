@@ -63,7 +63,7 @@
   url: https://ieeexplore.ieee.org/abstract/document/9897464
   pdf: /assets/publications/parasitic-detection-ieeeicip2022.pdf
   github: https://github.com/biodatlab/icip-challenge-2022
-- title: "Machine Learning Assisted Real-Time PCR and High-Resolutation Melt (qPCR-HRM) Analysis for SARS-CoV-2 Variant Identification (Accepted, TBA)"
+- title: "Machine Learning Assisted Real-Time PCR and High-Resolutation Melt (qPCR-HRM) Analysis for SARS-CoV-2 Variant Identification"
   authors: S Promja, J Puenpa, T Achakulvisut, Y Poovorawan, Y Su, P Athamanolap, B Lertanatawong
   journal: Analytical Chemistry
   year: 2023
