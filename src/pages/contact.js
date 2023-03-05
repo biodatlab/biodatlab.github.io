@@ -31,8 +31,8 @@ const ContactPage = ({ data: { site } }) => {
           <h1 className="post-title">Contact us</h1>
           <div className="primary-content">
             If you are interested to join the lab or collaborate, please do not
-            hesitate to send Titipat an email (my.titipat [AT] gmail.com) or
-            using the form in this page &rarr;
+            hesitate to send Titipat an email (titipat.ach [AT] mahidol [DOT]
+            edu) or using the form in this page &rarr;
           </div>
           <div className="primary-content">
             <b>Undergraduate students: </b>
@@ -41,20 +41,20 @@ const ContactPage = ({ data: { site } }) => {
           </div>
           <div className="primary-content">
             <b>Graduate students: </b>
-            Due to limitation of the Mahidol university's rule, I cannot hire
-            graduate students yet. If you are interested in doing research,
-            please send a CV with a brief research interest. Then you can
-            arrange a discussion before applying. You can potentially apply to
-            the Department of Biomedical engineering at Mahidol University,
-            Vidyasirimedhi Institute of Science and Technology (VISTEC), or
-            Chulalongkorn University, Thailand, where I can co-advise. There are
-            multiple options if you are interested.
+            You can apply to a Masters or PhD program at Biomedical Engineering
+            at Mahidol University. You can send a CV with a brief research
+            interest before applying. You can arrange a discussion with Titipat
+            beforehand. I also co-advise in multiple departments outside Mahidol
+            University including to the Department of Computer Engineering at
+            Mahidol University, Vidyasirimedhi Institute of Science and
+            Technology (VISTEC), or Chulalongkorn University, Thailand, where I
+            can co-advise. There are multiple options if you are interested.
           </div>
           <div className="primary-content">
-            <b>Other positions: </b>I always actively look for interns and
-            developers. If you are interested in doing internship (locally or
-            remotely) or other positions such as developers, please also do not
-            hesitate to email Titipat to discuss.
+            <b>Other positions: </b>I always actively look for interns,
+            researchers, and developers. If you are interested in doing
+            internship (locally or remotely) or other positions such as
+            developers, please also do not hesitate to email Titipat to discuss.
           </div>
           <div className="primary-content">
             <b>Office: </b>
@@ -65,7 +65,7 @@ const ContactPage = ({ data: { site } }) => {
         <div>
           <form
             className="form-container"
-            onSubmit={(e) => {
+            onSubmit={e => {
               e.preventDefault();
 
               const formdata = new FormData(e.target);
@@ -84,9 +84,7 @@ const ContactPage = ({ data: { site } }) => {
                 if (!value) {
                   checkedFields.push(key);
                 } else {
-                  checkedFields = checkedFields.filter(
-                    (field) => field !== key,
-                  );
+                  checkedFields = checkedFields.filter(field => field !== key);
                 }
               });
 
@@ -107,7 +105,7 @@ const ContactPage = ({ data: { site } }) => {
                     () => {
                       setSubmitted(true);
                     },
-                    (rej) => {
+                    rej => {
                       console.log("failed with result:", rej);
                     },
                   );
