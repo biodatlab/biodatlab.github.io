@@ -1,7 +1,7 @@
 ---
 template: BlogPost
-path: /people/supat
-date: 2023-01-19T12:31:03Z
+path: /people/sukrit
+date: 2023-03-05T12:31:03Z
 title: Sukrit Treewaree
 thumbnail: /assets/people/sukrit.jpg
 position: member
