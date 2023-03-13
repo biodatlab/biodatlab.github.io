@@ -30,31 +30,32 @@ const ContactPage = ({ data: { site } }) => {
         <div>
           <h1 className="post-title">Contact us</h1>
           <div className="primary-content">
-            If you are interested to join the lab or collaborate, please do not
-            hesitate to send Titipat an email (titipat.ach [AT] mahidol [DOT]
-            edu) or using the form in this page &rarr;
+            If you are interested to join the lab, collaborate, or inquire,
+            please do not hesitate to send Titipat an email (titipat.ach [AT]
+            mahidol [DOT] edu) or using the form in this page &rarr;
           </div>
           <div className="primary-content">
             <b>Undergraduate students: </b>
-            Please contact Titipat to arrange a short meeting to discuss about
-            research and/or potential projects.
+            To discuss potential research projects or ideas, feel free to reach
+            out to Titipat and arrange a brief meeting.
           </div>
           <div className="primary-content">
             <b>Graduate students: </b>
-            You can apply to a Masters or PhD program at Biomedical Engineering
-            at Mahidol University. You can send a CV with a brief research
-            interest before applying. You can arrange a discussion with Titipat
-            beforehand. I also co-advise in multiple departments outside Mahidol
-            University including to the Department of Computer Engineering at
-            Mahidol University, Vidyasirimedhi Institute of Science and
-            Technology (VISTEC), or Chulalongkorn University, Thailand, where I
-            can co-advise. There are multiple options if you are interested.
+            Prospective students interested in pursuing a Masters or PhD program
+            in Biomedical Engineering at Mahidol University can submit a CV
+            along with a brief statement of their research interests before
+            applying. Additionally, they can arrange a discussion with Titipat
+            in advance. Titipat is also available for co-advising in various
+            departments outside Mahidol University, such as the Department of
+            Computer Engineering at Mahidol University, Vidyasirimedhi Institute
+            of Science and Technology (VISTEC), or Chulalongkorn University,
+            Thailand, providing multiple options for interested students.
           </div>
           <div className="primary-content">
-            <b>Other positions: </b>I always actively look for interns,
-            researchers, and developers. If you are interested in doing
-            internship (locally or remotely) or other positions such as
-            developers, please also do not hesitate to email Titipat to discuss.
+            <b>Other positions: </b>The lab is always actively looking for
+            interns, researchers, and developers. If you are interested in doing
+            these position (locally or remotely), please also do not hesitate to
+            email Titipat to discuss.
           </div>
           <div className="primary-content">
             <b>Office: </b>
