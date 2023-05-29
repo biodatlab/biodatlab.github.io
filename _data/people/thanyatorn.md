@@ -4,7 +4,7 @@ path: /people/thanyatorn
 date: 2022-10-27T06:15:50.738Z
 title: Thanyatorn Leethamchayo
 thumbnail: /assets/people/thanyatorn.jpg
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 13
 ---

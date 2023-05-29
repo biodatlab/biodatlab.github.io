@@ -4,7 +4,7 @@ path: /people/korrawiz
 date: 2022-10-27T06:15:50.738Z
 title: Korrawiz Chotayapa
 thumbnail: /assets/people/korrwiz.png
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 11
 ---

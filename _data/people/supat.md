@@ -4,7 +4,7 @@ path: /people/supat
 date: 2023-01-19T12:31:03Z
 title: Supat Yutibun
 thumbnail: /assets/people/supat.png
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 15
 ---

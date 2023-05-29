@@ -4,7 +4,7 @@ path: /people/piraya
 date : 2022-10-28T06:15:50.738Z
 title: Piraya Chinnawong
 thumbnail: /assets/people/piraya.jpg
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 12
 ---
