@@ -68,3 +68,10 @@
   journal: Analytical Chemistry
   year: 2023
   url: https://pubs.acs.org/doi/full/10.1021/acs.analchem.2c05112
+- title: "Deep Learning-Based Object Detection And Bacteria Morphological Feature Extraction For Antibiotic Mode Of Action Study"
+  authors: K Chotayapa, T Leethamchayo, P Chinnawong, T Samernate, P Nonejuie, T Achakulvisut
+  journal: 2023 15th Biomedical Engineering International Conference (BMEiCON)
+  year: 2023
+  url: https://ieeexplore.ieee.org/document/10322010
+  pdf: /assets/publications/bacteria-det-bmeicon2023.pdf
+  github: https://github.com/biodatlab/bacteria-detection
