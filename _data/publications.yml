@@ -75,3 +75,8 @@
   url: https://ieeexplore.ieee.org/document/10322010
   pdf: /assets/publications/bacteria-det-bmeicon2023.pdf
   github: https://github.com/biodatlab/bacteria-detection
+- title: Combined Channel and Spatial Attention-Based Stereo Endoscopic Image Super-Resolution
+  authors: M Hayat, S Aramvith, T Achakulvisut
+  journal: TENCON 2023 - 2023 IEEE Region 10 Conference (TENCON)
+  year: 2023
+  url: https://ieeexplore.ieee.org/document/10322331
