@@ -1,4 +1,4 @@
----
+ ---
  template: BlogPost
  path: /people/chonchanut
  date: 2023-12-05T02:25:50.738Z
