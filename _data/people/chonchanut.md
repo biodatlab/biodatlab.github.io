@@ -12,5 +12,5 @@
  Chonchanut Lasort is currrently a Master's student at the Department of Biomedical Engineering at Mahidol University.
 
  His research interest is applying deep learning for biomedical solutions. He is presently working on development of baterial classification using deep learning.
-Footer
+
 Github : @tymememe
