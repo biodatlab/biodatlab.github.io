@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /people/watcharitpol
+path: /people/watcharitpol.jpg
 date: 2023-12-07
 title: Watcharitpol Sermsrisuwan
 thumbnail: asset/people/watcharitpol
@@ -15,8 +15,3 @@ Watcharitpol is currently a medical student in a dual degree program: Doctor of 
 
 - **Natural language processing**
 - **Large language model**
-
-<!---
-boom4869/boom4869 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
