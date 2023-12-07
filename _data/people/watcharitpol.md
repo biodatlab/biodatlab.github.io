@@ -1,9 +1,9 @@
 ---
 template: BlogPost
 path: /people/watcharitpol
-date: 2023-12-07
+date: 2023-12-07T06:15:50.738Z
 title: Watcharitpol Sermsrisuwan
-thumbnail: assets/people/watcharitpol.jpg
+thumbnail: /assets/people/watcharitpol.jpg
 position: member
 metaDescription: Graduate Student
 order: 22
