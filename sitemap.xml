@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://badlab.vercel.app/people/watcharitpol</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://badlab.vercel.app/people/chonchanut</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://badlab.vercel.app/people/seksan</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://badlab.vercel.app/people/aniruddh</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -19,8 +20,8 @@
 <url> <loc>https://badlab.vercel.app/people/noppawat</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://badlab.vercel.app/resources/setting-up-users-for-server</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://badlab.vercel.app/people/atirut</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://badlab.vercel.app/people/peeranat</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://badlab.vercel.app/people/napasara</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://badlab.vercel.app/people/peeranat</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://badlab.vercel.app/people/tamara</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://badlab.vercel.app/people/earth</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://badlab.vercel.app/people/vittawat</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
