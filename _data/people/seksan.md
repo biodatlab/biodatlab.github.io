@@ -6,7 +6,7 @@ title: Seksan Yoadsanit
 thumbnail: /assets/people/seksan.jpg
 position: member
 metaDescription: Graduate Student
-order: 19
+order: 21
 ---
 
 Seksan is currently a medical student in a dual degree program: Doctor of Medicine and Master of Engineering at the Faculty of Medicine Ramathibodi Hospital, Mahidol University, and the Department of Biomedical Engineering, Mahidol University.
