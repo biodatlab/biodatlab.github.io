@@ -16,11 +16,17 @@ Titipat Achakulvisut runs the biomedical and data lab (BioDat lab) at the Depart
 
 ## Positions and previous work
 
+- Advisor at [Looloo Technology](https://loolootech.com/)
 - Co-founder of Neuromatch [neuromatch.io](https://neuromatch.io/)
 - Organizer of Neuromatch Conferences (NMC) [conference.neuromatch.io](https://conference.neuromatch.io/)
 - Online Co-chair at Asian Conference in Machine Leanring (ACML) 2021
-- VISTEC-depa Thailand AI Research Institute [https://airesearch.in.th/](https://airesearch.in.th/)
 - Asian Conference in Machine Learning (ACML) workshop on Machine learning 2020 (see [here](https://acml-conf.github.io/2020-workshop-ml-in-thailand/))
+
+## Start-up collaborations
+
+- [Looloo technology](https://loolootech.com/)
+- [Meticuly](https://www.meticuly.com/)
+- [DMIND](https://aimet.tech/th/all-projects/dmind/)
 
 ## Outside research
 
