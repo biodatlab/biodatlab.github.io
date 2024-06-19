@@ -86,3 +86,9 @@
   year: 2024
   url: https://www.nature.com/articles/s41598-024-58131-6
   github: https://github.com/biodatlab/multitask-vision-ecg/
+- title: "CraNeXt: Automatic Reconstruction of Skull Implants With Skull Categorization Technique"
+  authors: T Kesornsri, N Asawalertsak, N Tantisereepatana, P Manowongpichate, B Lohwongwatana, C Puncreobutr, T Achakulvisut, P Vateekul
+  journal: IEEE Access
+  year: 2024
+  url: https://ieeexplore.ieee.org/document/10559595
+  github: https://github.com/guitared/Cranext
