@@ -4,7 +4,7 @@ path: /people/sukrit
 date: 2023-03-05T12:31:03Z
 title: Sukrit Treewaree
 thumbnail: /assets/people/sukrit.jpg
-position: member
+position: alumni
 metaDescription: Research Assistant
 order: 17
 ---

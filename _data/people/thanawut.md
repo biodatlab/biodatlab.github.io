@@ -4,7 +4,7 @@ path: /people/earth
 date: 2022-02-01T06:15:50.738Z
 title: Thanawut Timpitak (Earth)
 thumbnail: /assets/people/thanawut-bme.jpg
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 4
 ---

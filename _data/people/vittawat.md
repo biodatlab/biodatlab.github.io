@@ -4,7 +4,7 @@ path: /people/vittawat
 date: 2022-02-01T06:15:50.738Z
 title: Vittawat Sootawee
 thumbnail: /assets/people/vittawat.jpg
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 6
 ---
