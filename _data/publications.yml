@@ -92,3 +92,9 @@
   year: 2024
   url: https://ieeexplore.ieee.org/document/10559595
   github: https://github.com/guitared/Cranext
+- title: "Thonburian Whisper: Robust Fine-tuned and Distilled Whisper for Thai"
+  authors: ZH Aung, T Thavornmongkol, A Boribalburephan, V Tangsriworakan, K Pipatsrisawat, T Achakulvisut
+  journal: ICNLSP
+  year: 2024
+  url: https://aclanthology.org/2024.icnlsp-1.17/
+  github: https://github.com/biodatlab/thonburian-whisper
