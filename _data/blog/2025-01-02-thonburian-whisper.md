@@ -3,7 +3,7 @@ template: BlogPost
 path: /blog/thonburian-whisper-2024
 date: 2025-01-02T07:08:53.137Z
 title: From Thonburian Whisper to Multimodal Applications
-thumbnail: "/assets/blogs/thonburian-whisper.jpg"
+thumbnail: "/assets/blogs/thonburian-whisper-banner.jpg"
 metaDescription:
 ---
 
@@ -13,7 +13,7 @@ metaDescription:
   Thonburian Whisper
 </p>
 
-Hello January 2025! Thai automatic speech recognition (ASR) has made significant strides in recent years. I am particularly impressed by the development from Ekapol's lab on foundation techniques in ASR, NECTEC on releasing Pathumma (series of models including LLM, ASR, Multimodal models), and SCB10X on recently releasing Typhoon 2. Our lab is also excited to be a part of the journey by releasing Thonburian Whisper, a fine-tuned Whisper for Thai.
+Hello January 2025! Thai automatic speech recognition (ASR) has made significant strides in recent years. I am particularly impressed by the development from Ekapol's lab on foundation techniques in ASR, NECTEC on releasing Pathumma (series of models including LLM, ASR, Multimodal models), and SCB 10X on recently releasing Typhoon 2 (series of LLM and multimodal LLMs). Our lab is also excited to be a part of the journey by releasing Thonburian Whisper, a fine-tuned Whisper for Thai.
 
 ## Origins
 
@@ -21,11 +21,15 @@ In December 2022, our lab and Wordsense (an affiliated company with Looloo Techn
 
 ## Community Adoption
 
-It's been incredibly encouraging to see the adoption and extension of our work by the Thai AI community. I'd like to particularly thank the team at NECTEC for their work on [Pathumma Whisper](https://huggingface.co/nectec/Pathumma-whisper-th-large-v3), which builds upon and references our Thonburian Whisper approach. I also would like to thank [DMIND](https://aimet.tech/en/all-projects/dmind/), a national depression screening application, developed from AIMET and [PresScribe](https://looloohealth.com/en/), application that summarizes patient conversations into medical records, that use our model for national depression screening. If you use our model for Thai speech-to-text application, please feel free send message to us anytime.
+It's been incredibly encouraging to see the adoption and extension of our work by the Thai AI community. We'd like to particularly thank the team at NECTEC for their work on [Pathumma Whisper](https://huggingface.co/nectec/Pathumma-whisper-th-large-v3), which builds upon and references our Thonburian Whisper approach. We also would like to thank
+- [DMIND](https://aimet.tech/en/all-projects/dmind/), a national depression screening application, developed from AIMET
+- and [PresScribe](https://looloohealth.com/en/), application that summarizes patient conversations into medical records
 
-## Expanding into Multimodal Applications
+that use our model as a base model. If you use our model for Thai speech-to-text application, please feel free send message.
 
-The impact of Thonburian Whisper has extended beyond pure speech recognition. We're particularly excited about its integration into larger multimodal language models. The recent [Typhoon2-Audio project](https://arxiv.org/abs/2412.13702) demonstrates this perfectly, using a fine-tuned version of Thonburian Whisper Large as part of its speech encoding stack with BEATs for audio encoder. I highly recommend reading their Arxiv paper where they went in details of their training recipes.
+## Expanding into Multimodal LLM
+
+The impact of Thonburian Whisper has also extended beyond pure speech recognition. We're particularly excited about its integration into larger multimodal language models. The recent [Typhoon2-Audio project](https://arxiv.org/abs/2412.13702) demonstrates this perfectly, using a fine-tuned version of Thonburian Whisper Large as part of its speech encoding stack with BEATs for audio encoder. We highly recommend reading their Arxiv paper where they went in details of their Audio LLM training recipes.
 
 <p align="center">
   <img src="/assets/blogs/typhoon2-audio.jpg" width=400>
