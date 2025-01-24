@@ -98,3 +98,9 @@
   year: 2024
   url: https://aclanthology.org/2024.icnlsp-1.17/
   github: https://github.com/biodatlab/thonburian-whisper
+- title: "Explainable Deep Learning for Glaucomatous Visual Field Prediction: Artifact Correction Enhances Transformer Models"
+  authors: Kornchanok Sriwatana, Chanon Puttanawarut, Yanin Suwan, Titipat Achakulvisut
+  journal: Trans. Vis. Sci. Tech.
+  year: 2025
+  url: https://doi.org/10.1167/tvst.14.1.22
+  github:  https://github.com/gaew25/OCT-VF-artifact-removal
