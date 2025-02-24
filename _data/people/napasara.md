@@ -4,7 +4,7 @@ path: /people/napasara
 date: 2022-02-01T06:15:50.738Z
 title: Napasara Asawalertsak
 thumbnail: /assets/people/napasara-bme.jpg
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 3
 ---

@@ -4,7 +4,7 @@ path: /people/noppawat
 date: 2022-04-30T06:15:50.738Z
 title: Noppawat Tantisiriwat
 thumbnail: /assets/people/noppawat.jpg
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 9
 ---

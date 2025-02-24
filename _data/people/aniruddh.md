@@ -4,7 +4,7 @@ path: /people/aniruddh
 date: 2023-05-11T09:00:00.738Z
 title: Aniruddh Pramod
 thumbnail: /assets/people/aniruddh.jpg
-position: member
+position: alumni
 metaDescription: Research Intern
 order: 18
 ---
