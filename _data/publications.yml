@@ -103,4 +103,22 @@
   journal: Trans. Vis. Sci. Tech.
   year: 2025
   url: https://doi.org/10.1167/tvst.14.1.22
-  github:  https://github.com/gaew25/OCT-VF-artifact-removal
+  github: https://github.com/gaew25/OCT-VF-artifact-removal
+- title: "InceptMan: An InceptionNeXt-Based Architecture for End-to-End Mandible Reconstruction"
+  authors: N Kamboonsri, N Tantisereepatana, T Achakulvisut, P Vateekul
+  journal: IEEE Access
+  year: 2025
+  url: https://ieeexplore.ieee.org/document/11048542
+  github: https://github.com/oxygen-ii/InceptMan
+- title: "EC-RAFT: Automated Generation of Clinical Trial Eligibility Criteria through Retrieval-Augmented Fine-Tuning"
+  authors: N Lekuthai, N Pewngam, S Sokrai, T Achakulvisut
+  journal: Association for Computational Linguistics
+  year: 2025
+  url: https://2025.aclweb.org/program/find_papers/
+  github: https://github.com/biodatlab/ec-raft/
+- title: "LAMAR at ArchEHR-QA 2025: Clinically Aligned LLM-Generated Few-Shot Learning for EHR-Grounded Patient Question Answering"
+  authors: S Yoadsanit, N Lekuthai, W Sermsrisuwan1, T Achakulvisut1
+  journal: Association for Computational Linguistics
+  year: 2025
+  url: https://aclweb.org/aclwiki/BioNLP_Workshop
+  github: https://github.com/biodatlab/archehr-qa-lamar/
