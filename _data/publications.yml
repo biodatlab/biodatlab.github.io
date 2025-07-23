@@ -114,10 +114,10 @@
   authors: N Lekuthai, N Pewngam, S Sokrai, T Achakulvisut
   journal: Association for Computational Linguistics
   year: 2025
-  url: https://2025.aclweb.org/program/find_papers/
+  url: https://aclanthology.org/2025.findings-acl.491/
   github: https://github.com/biodatlab/ec-raft/
 - title: "LAMAR at ArchEHR-QA 2025: Clinically Aligned LLM-Generated Few-Shot Learning for EHR-Grounded Patient Question Answering"
-  authors: S Yoadsanit, N Lekuthai, W Sermsrisuwan1, T Achakulvisut1
+  authors: S Yoadsanit, N Lekuthai, W Sermsrisuwan, T Achakulvisut
   journal: Association for Computational Linguistics
   year: 2025
   url: https://aclweb.org/aclwiki/BioNLP_Workshop
