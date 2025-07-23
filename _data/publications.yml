@@ -2,6 +2,7 @@
   authors: T Achakulvisut, DE Acuna, T Ruangrong, K Kording
   journal: PloS one 11 (7), e0158423
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423
+  github: https://github.com/titipata/science_concierge
   year: 2016
 - title: "Intellectual synthesis in mentorship determines success in academic careers"
   authors: JF Liénard, T Achakulvisut, DE Acuna, SV David
@@ -17,6 +18,7 @@
   authors: T Achakulvisut, C Bhagavatula, D Acuna, K Kording
   journal: arXiv preprint arXiv:1907.00962
   url: https://arxiv.org/pdf/1907.00962.pdf
+  github: https://github.com/titipata/detecting-scientific-claim
   year: 2019
 - title: "Point of view: Improving on legacy conferences by moving online"
   authors: Titipat Achakulvisut, Tulakan Ruangrong, Isil Bilgin, Sofie Van Den Bossche, Brad Wyble, Dan FM Goodman, Konrad P Kording
@@ -28,16 +30,19 @@
   authors: M Jas, T Achakulvisut, A Idrizović, D Acuna, M Antalek, V Marques, ...
   journal: Journal of Open Source Software 5 (47)
   url: https://biblio.ugent.be/publication/8650816/file/8650817
+  github: https://github.com/glm-tools/pyglmnet
   year: 2020
 - title: "neuromatch: Algorithms to match scientists"
   authors: T Achakulvisut, T Ruangrong, DE Acuna, B Wyble, D Goodman, K Kording
   journal: eLife
   url: https://elifesciences.org/labs/5ed408f4/neuromatch-algorithms-to-match-scientists
+  github: https://github.com/titipata/paper-reviewer-matcher
   year: 2020
 - title: "Pubmed parser: a Python parser for PubMed Open-Access XML subset and MEDLINE XML dataset XML dataset"
   authors: T Achakulvisut, DE Acuna, K Kording
   journal: Journal of Open Source Software 5 (46), 1979
   url: https://joss.theoj.org/papers/10.21105/joss.01979.pdf
+  github: https://github.com/titipata/pubmed_parser
   year: 2020
 - title: "Neuromatch Academy: Teaching Computational Neuroscience with global accessibility"
   authors: T van Viegen, A Akrami, K Bonnen, E DeWitt, A Hyafil, H Ledmyr, ...
@@ -55,6 +60,7 @@
   journal: 2021 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)
   year: 2021
   url: https://ieeexplore.ieee.org/document/9678620
+  github: https://github.com/ai-builders
   pdf: /assets/publications/aibuilders-tale2021.pdf
 - title: "Multitask learning via pseudo-label generation and ensemble prediction for parasitic egg cell detection: IEEE ICIP Challenge 2022"
   authors: Aung ZH, Srithaworn K, Achakulvisut T
