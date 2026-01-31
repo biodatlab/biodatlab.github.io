@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/nathachai
 date: 2026-01-05T05:00:00.000Z
 title: Nathachai Rathamarit
-thumbnail: static/assets/people/nathachai.jpg
+thumbnail: /assets/people/nathachai.jpg
 position: member
 metaDescription: Undergraduate student
 order: 12
