@@ -6,7 +6,7 @@ title: Nathachai Rathamarit
 thumbnail: /assets/people/nathachai.jpg
 position: member
 metaDescription: Undergraduate student
-order: 12
+order: 24
 ---
 Nathachai Rathamarit is an undergraduate student in the Department of Biomedical Engineering at Mahidol University, specializing in machine learning for healthcare applications.
 
