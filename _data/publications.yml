@@ -128,3 +128,15 @@
   year: 2025
   url: https://aclanthology.org/2025.bionlp-share.12.pdf
   github: https://github.com/biodatlab/archehr-qa-lamar/
+- title: "Leveraging Author-Specific Context for Scientific Figure Caption Generation: 3rd SciCap Challenge"
+  authors: W Timklaypachara, M Chiewhawan, N Lekuthai, T Achakulvisut
+  journal: arXiv (preprint)
+  year: 2025
+- title: "Agentic Stage-Based LLM Framework for Multi-Turn Mental Health Support Conversations in Thai"
+  authors: R Changpun, N Khoprasertthaworn, P Jongpipatchai, T Petcharat, K Rungsimontuchat, P Suttiwan, N Nupairoj, S Hemrungrojn, A Tuicomepee, T Achakulvisut, P Vateekul
+  journal: 20th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)
+  year: 2025
+- title: "ThonburianTTS: Enhancing Neural Flow Matching Models for Authentic Thai Text-to-Speech"
+  authors: T Aung, P Sriwirote, T Thavornmongkol, K Pipatsrisawat, T Achakulvisut, ZH Aung
+  journal: 20th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)
+  year: 2025
