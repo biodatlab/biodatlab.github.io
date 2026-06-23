@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/watcharapong
 date: 2026-01-05T05:00:00.000Z
 title: Watcharapong Timklaypachara
-thumbnail: /assets/people/diamond.jpg
+thumbnail: /assets/people/watcharapong.jpg
 position: member
 metaDescription: MD–MEng Dual-Degree Candidate and Graduate Researcher
 order: 27
