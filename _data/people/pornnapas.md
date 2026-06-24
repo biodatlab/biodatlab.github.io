@@ -4,7 +4,7 @@ path: /people/pornnapas
 date: 2022-11-27T06:15:50.738Z
 title: Pornnapas Manowongpichate
 thumbnail: /assets/people/pornnapas.jpg
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 14
 ---

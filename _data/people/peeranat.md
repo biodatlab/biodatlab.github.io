@@ -4,7 +4,7 @@ path: /people/peeranat
 date: 2022-02-01T06:15:50.738Z
 title: Peeranat Buabang
 thumbnail: /assets/people/peeranat.jpg
-position: member
+position: alumni
 metaDescription: Undergraduate student
 order: 7
 ---

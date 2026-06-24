@@ -4,7 +4,7 @@ path: /people/kornchanok
 date: 2024-09-12T06:15:50.738Z
 title: Kornchanok Sriwatana
 thumbnail: /assets/people/kornchanok.jpg
-position: member
+position: alumni
 metaDescription: Graduate Student
 order: 23
 ---

@@ -4,7 +4,7 @@ path: /people/watcharitpol
 date: 2023-12-07T06:15:50.738Z
 title: Watcharitpol Sermsrisuwan
 thumbnail: /assets/people/watcharitpol.jpg
-position: member
+position: alumni
 metaDescription: Graduate Student
 order: 22
 ---

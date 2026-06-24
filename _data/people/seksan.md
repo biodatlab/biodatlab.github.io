@@ -4,7 +4,7 @@ path: /people/seksan
 date: 2023-12-04
 title: Seksan Yoadsanit
 thumbnail: /assets/people/seksan.jpg
-position: member
+position: alumni
 metaDescription: Graduate Student
 order: 21
 ---
