@@ -140,6 +140,7 @@
   authors: T Aung, P Sriwirote, T Thavornmongkol, K Pipatsrisawat, T Achakulvisut, ZH Aung
   journal: 20th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)
   year: 2025
+  github: https://github.com/biodatlab/thonburian-tts
 - title: "An End-to-End Deep Learning Pipeline for Automated Mandible Virtual Surgical Planning Using Real-World Clinical Data"
   authors: N Kamboonsri, T Sriwaranon, N Tantisereepatana, C Puncreobutr, B Lohwongwatana, GB Olson, A Tel, M Robiony, T Achakulvisut, P Vateekul
   journal: IEEE Access
@@ -149,23 +150,23 @@
   authors: M Chiewhawan, K Limaroon, T Achakulvisut
   journal: Proceedings of the BioNLP 2026 (Shared Tasks), 179-190
   url: https://aclanthology.org/2026.bionlp-2.25/
-  year: 2026
   github: https://github.com/biodatlab/medexact-lamar
+  year: 2026
 - title: "LAMAR-2 at MedGenVidQA 2026: Visual Answer Localization in Medical Videos via Multimodal LLM and Context-Augmented Prompting"
   authors: W Sermsrisuwan, N Lekuthai, S Yoadsanit, T Achakulvisut
   journal: Proceedings of the BioNLP 2026 (Shared Tasks), 233-242
   url: https://aclanthology.org/2026.bionlp-2.31/
-  year: 2026
   github: https://github.com/biodatlab/medexact-lamar
+  year: 2026
 - title: "KAN-AINet: Kolmogorov-Arnold Network with Adaptive Illumination Modulation for Generalizable Polyp Segmentation"
   authors: W Timklaypachara, M Chiewhawan, A Pudhota, SM Aguilera, S Bodduluri, T Achakulvisut
   journals: Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2026
   url: https://conferences.miccai.org/2026/en/
-  year: 2026
   github: https://github.com/biodatlab/kanainet
+  year: 2026
 - title: "MedFuse-Seg: Multi-Level Visual and Semantic Context Fusion for Segmentation-Based Medical Reasoning"
   authors: K Limaroon, Monrada Chiewhawan, W Timklaypachara, P Vateekul, T Achakulvisut
   journals: Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2026
   url: https://conferences.miccai.org/2026/en/
-  year: 2026
   github: https://github.com/biodatlab/medfuse-seg
+  year: 2026
