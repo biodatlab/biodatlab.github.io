@@ -161,12 +161,12 @@
 - title: "KAN-AINet: Kolmogorov-Arnold Network with Adaptive Illumination Modulation for Generalizable Polyp Segmentation"
   authors: W Timklaypachara, M Chiewhawan, A Pudhota, SM Aguilera, S Bodduluri, T Achakulvisut
   journals: Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2026
-  url: https://conferences.miccai.org/2026/en/
+  url: https://papers.miccai.org/miccai-2026/paper/5427_paper.pdf
   github: https://github.com/biodatlab/kanainet
   year: 2026
 - title: "MedFuse-Seg: Multi-Level Visual and Semantic Context Fusion for Segmentation-Based Medical Reasoning"
   authors: K Limaroon, Monrada Chiewhawan, W Timklaypachara, P Vateekul, T Achakulvisut
   journals: Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2026
-  url: https://conferences.miccai.org/2026/en/
+  url: https://papers.miccai.org/miccai-2026/paper/2934_paper.pdf
   github: https://github.com/biodatlab/medfuse-seg
   year: 2026
