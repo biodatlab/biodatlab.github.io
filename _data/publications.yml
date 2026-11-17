@@ -170,3 +170,9 @@
   url: https://papers.miccai.org/miccai-2026/paper/2934_paper.pdf
   github: https://github.com/biodatlab/medfuse-seg
   year: 2026
+- title: "ASCRIBE: Atomic and Significance-Based Reasoning for Thai Clinical SOAP Note Generation (Best Paper Award)"
+  authors: T Kalavantavanich, T Ponarchar, P Arsomngern, J Wonglertsakul, W Chuthong, C Boonnag, K Pipatsrisawat, T Achakulvisut
+  journals: Proceedings of the 10th Widening NLP Workshop -- EMNLP 2026
+  url: https://aclanthology.org/2026.winlp-main.14/
+  github: https://github.com/loolootech/ascribe
+  year: 2026
